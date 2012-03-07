@@ -1,0 +1,10 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\bin\Release\Wybecom.TalkPortal.Cisco.IPPhone.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\bin\Release\Wybecom.TalkPortal.Cisco.IPPhone.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\Wybecom.TalkPortal.Cisco.IPPhone.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\Wybecom.TalkPortal.Cisco.IPPhone.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\bin\Release\Wybecom.TalkPortal.Cisco.IPPhone.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\bin\Release\Wybecom.TalkPortal.Cisco.IPPhone.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\Wybecom.TalkPortal.Cisco.IPPhone.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Cisco.IPPhone\obj\Release\Wybecom.TalkPortal.Cisco.IPPhone.pdb

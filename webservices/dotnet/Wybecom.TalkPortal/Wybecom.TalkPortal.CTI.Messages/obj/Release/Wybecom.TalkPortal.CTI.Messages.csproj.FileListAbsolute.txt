@@ -1,0 +1,10 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\bin\Release\Wybecom.TalkPortal.CTI.Messages.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\bin\Release\Wybecom.TalkPortal.CTI.Messages.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\Wybecom.TalkPortal.CTI.Messages.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\Wybecom.TalkPortal.CTI.Messages.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\bin\Release\Wybecom.TalkPortal.CTI.Messages.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\bin\Release\Wybecom.TalkPortal.CTI.Messages.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\Wybecom.TalkPortal.CTI.Messages.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Messages\obj\Release\Wybecom.TalkPortal.CTI.Messages.pdb

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CodifModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="CodifModelStoreContainer">
+          <EntitySet Name="ACDManagerAddress" EntityType="CodifModel.Store.ACDManagerAddress" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ACDManagerAddressGroup" EntityType="CodifModel.Store.ACDManagerAddressGroup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Calls" EntityType="CodifModel.Store.Calls" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Codif" EntityType="CodifModel.Store.Codif" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Team" EntityType="CodifModel.Store.Team" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TeamMember" EntityType="CodifModel.Store.TeamMember" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TeamMemberTeam" EntityType="CodifModel.Store.TeamMemberTeam" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ACDManagerAddress_ACDManagerAddressGroup" Association="CodifModel.Store.FK_ACDManagerAddress_ACDManagerAddressGroup">
+            <End Role="ACDManagerAddressGroup" EntitySet="ACDManagerAddressGroup" />
+            <End Role="ACDManagerAddress" EntitySet="ACDManagerAddress" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Calls_Calls" Association="CodifModel.Store.FK_Calls_Calls">
+            <End Role="Codif" EntitySet="Codif" />
+            <End Role="Calls" EntitySet="Calls" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Team_ACDManagerAddressGroup" Association="CodifModel.Store.FK_Team_ACDManagerAddressGroup">
+            <End Role="ACDManagerAddressGroup" EntitySet="ACDManagerAddressGroup" />
+            <End Role="Team" EntitySet="Team" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMemberTeam_Team" Association="CodifModel.Store.FK_TeamMemberTeam_Team">
+            <End Role="Team" EntitySet="Team" />
+            <End Role="TeamMemberTeam" EntitySet="TeamMemberTeam" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeamMemberTeam_TeamMember" Association="CodifModel.Store.FK_TeamMemberTeam_TeamMember">
+            <End Role="TeamMember" EntitySet="TeamMember" />
+            <End Role="TeamMemberTeam" EntitySet="TeamMemberTeam" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ACDManagerAddress">
+          <Key>
+            <PropertyRef Name="acdmanageraddressid" />
+          </Key>
+          <Property Name="acdmanageraddressid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="pattern" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="acdmanageraddressgroupid" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ACDManagerAddressGroup">
+          <Key>
+            <PropertyRef Name="acdmanageraddressgroupid" />
+          </Key>
+          <Property Name="acdmanageraddressgroupid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="acdmanageraddressgroupname" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Calls">
+          <Key>
+            <PropertyRef Name="callid" />
+          </Key>
+          <Property Name="extension" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="callee" Type="nvarchar" MaxLength="20" />
+          <Property Name="calltype" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="startdatetime" Type="datetime" Nullable="false" />
+          <Property Name="enddatetime" Type="datetime" Nullable="false" />
+          <Property Name="id" Type="nvarchar" MaxLength="50" />
+          <Property Name="caller" Type="nvarchar" MaxLength="20" />
+          <Property Name="callid" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="codifid" Type="int" />
+        </EntityType>
+        <EntityType Name="Codif">
+          <Key>
+            <PropertyRef Name="codifid" />
+          </Key>
+          <Property Name="codif" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="active" Type="bit" Nullable="false" />
+          <Property Name="codifid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Team">
+          <Key>
+            <PropertyRef Name="teamid" />
+          </Key>
+          <Property Name="teamid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="teampattern" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="teamname" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="teamdefaultdestination" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="acdmanageraddressgroupid" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TeamMember">
+          <Key>
+            <PropertyRef Name="teammemberid" />
+          </Key>
+          <Property Name="teammemberid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="teammembername" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="teammemberextension" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="issupervisor" Type="bit" Nullable="false" />
+          <Property Name="islogged" Type="bit" />
+        </EntityType>
+        <EntityType Name="TeamMemberTeam">
+          <Key>
+            <PropertyRef Name="teamid" />
+            <PropertyRef Name="teammemberid" />
+          </Key>
+          <Property Name="teamid" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="teammemberid" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_ACDManagerAddress_ACDManagerAddressGroup">
+          <End Role="ACDManagerAddressGroup" Type="CodifModel.Store.ACDManagerAddressGroup" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ACDManagerAddress" Type="CodifModel.Store.ACDManagerAddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ACDManagerAddressGroup">
+              <PropertyRef Name="acdmanageraddressgroupid" />
+            </Principal>
+            <Dependent Role="ACDManagerAddress">
+              <PropertyRef Name="acdmanageraddressgroupid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Calls_Calls">
+          <End Role="Codif" Type="CodifModel.Store.Codif" Multiplicity="0..1" />
+          <End Role="Calls" Type="CodifModel.Store.Calls" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Codif">
+              <PropertyRef Name="codifid" />
+            </Principal>
+            <Dependent Role="Calls">
+              <PropertyRef Name="codifid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Team_ACDManagerAddressGroup">
+          <End Role="ACDManagerAddressGroup" Type="CodifModel.Store.ACDManagerAddressGroup" Multiplicity="1" />
+          <End Role="Team" Type="CodifModel.Store.Team" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ACDManagerAddressGroup">
+              <PropertyRef Name="acdmanageraddressgroupid" />
+            </Principal>
+            <Dependent Role="Team">
+              <PropertyRef Name="acdmanageraddressgroupid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMemberTeam_Team">
+          <End Role="Team" Type="CodifModel.Store.Team" Multiplicity="1" />
+          <End Role="TeamMemberTeam" Type="CodifModel.Store.TeamMemberTeam" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Team">
+              <PropertyRef Name="teamid" />
+            </Principal>
+            <Dependent Role="TeamMemberTeam">
+              <PropertyRef Name="teamid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeamMemberTeam_TeamMember">
+          <End Role="TeamMember" Type="CodifModel.Store.TeamMember" Multiplicity="1" />
+          <End Role="TeamMemberTeam" Type="CodifModel.Store.TeamMemberTeam" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TeamMember">
+              <PropertyRef Name="teammemberid" />
+            </Principal>
+            <Dependent Role="TeamMemberTeam">
+              <PropertyRef Name="teammemberid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CodifModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="CodifEntities">
+          <EntitySet Name="Calls" EntityType="CodifModel.Calls" />
+          <EntitySet Name="Codif" EntityType="CodifModel.Codif" />
+          <AssociationSet Name="FK_Calls_Calls" Association="CodifModel.FK_Calls_Calls">
+            <End Role="Codif" EntitySet="Codif" />
+            <End Role="Calls" EntitySet="Calls" />
+          </AssociationSet>
+          <EntitySet Name="ACDManagerAddress" EntityType="CodifModel.ACDManagerAddress" />
+          <EntitySet Name="ACDManagerAddressGroup" EntityType="CodifModel.ACDManagerAddressGroup" />
+          <EntitySet Name="Team" EntityType="CodifModel.Team" />
+          <EntitySet Name="TeamMember" EntityType="CodifModel.TeamMember" />
+          <AssociationSet Name="FK_ACDManagerAddress_ACDManagerAddressGroup" Association="CodifModel.FK_ACDManagerAddress_ACDManagerAddressGroup">
+            <End Role="ACDManagerAddressGroup" EntitySet="ACDManagerAddressGroup" />
+            <End Role="ACDManagerAddress" EntitySet="ACDManagerAddress" /></AssociationSet>
+          <AssociationSet Name="FK_Team_ACDManagerAddressGroup" Association="CodifModel.FK_Team_ACDManagerAddressGroup">
+            <End Role="ACDManagerAddressGroup" EntitySet="ACDManagerAddressGroup" />
+            <End Role="Team" EntitySet="Team" /></AssociationSet>
+          <AssociationSet Name="TeamMemberTeam" Association="CodifModel.TeamMemberTeam">
+            <End Role="Team" EntitySet="Team" />
+            <End Role="TeamMember" EntitySet="TeamMember" /></AssociationSet></EntityContainer>
+        <EntityType Name="Calls">
+          <Key>
+            <PropertyRef Name="callid" />
+          </Key>
+          <Property Name="extension" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="callee" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="calltype" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="startdatetime" Type="DateTime" Nullable="false" />
+          <Property Name="id" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="caller" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="callid" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Codif" Relationship="CodifModel.FK_Calls_Calls" FromRole="Calls" ToRole="Codif" />
+          <Property Name="enddatetime" Type="DateTime" Nullable="false" /></EntityType>
+        <EntityType Name="Codif">
+          <Key>
+            <PropertyRef Name="codifid" />
+          </Key>
+          <Property Name="codif1" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="active" Type="Boolean" Nullable="false" />
+          <Property Name="codifid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Calls" Relationship="CodifModel.FK_Calls_Calls" FromRole="Codif" ToRole="Calls" />
+        </EntityType>
+        <Association Name="FK_Calls_Calls">
+          <End Role="Codif" Type="CodifModel.Codif" Multiplicity="0..1" />
+          <End Role="Calls" Type="CodifModel.Calls" Multiplicity="*" />
+        </Association>
+        <EntityType Name="ACDManagerAddress">
+          <Key>
+            <PropertyRef Name="acdmanageraddressid" /></Key>
+          <Property Name="acdmanageraddressid" Type="Guid" Nullable="false" />
+          <Property Name="pattern" Type="String" Nullable="false" />
+          <NavigationProperty Name="ACDManagerAddressGroup" Relationship="CodifModel.FK_ACDManagerAddress_ACDManagerAddressGroup" FromRole="ACDManagerAddress" ToRole="ACDManagerAddressGroup" /></EntityType>
+        <EntityType Name="ACDManagerAddressGroup">
+          <Key>
+            <PropertyRef Name="acdmanageraddressgroupid" /></Key>
+          <Property Name="acdmanageraddressgroupid" Type="Guid" Nullable="false" />
+          <Property Name="acdmanageraddressgroupname" Type="String" Nullable="false" />
+          <NavigationProperty Name="ACDManagerAddress" Relationship="CodifModel.FK_ACDManagerAddress_ACDManagerAddressGroup" FromRole="ACDManagerAddressGroup" ToRole="ACDManagerAddress" />
+          <NavigationProperty Name="Team" Relationship="CodifModel.FK_Team_ACDManagerAddressGroup" FromRole="ACDManagerAddressGroup" ToRole="Team" /></EntityType>
+        <EntityType Name="Team">
+          <Key>
+            <PropertyRef Name="teamid" /></Key>
+          <Property Name="teamid" Type="Guid" Nullable="false" />
+          <Property Name="teampattern" Type="String" Nullable="false" />
+          <Property Name="teamname" Type="String" Nullable="false" />
+          <Property Name="teamdefaultdestination" Type="String" Nullable="false" />
+          <NavigationProperty Name="ACDManagerAddressGroup" Relationship="CodifModel.FK_Team_ACDManagerAddressGroup" FromRole="Team" ToRole="ACDManagerAddressGroup" />
+          <NavigationProperty Name="TeamMember" Relationship="CodifModel.TeamMemberTeam" FromRole="Team" ToRole="TeamMember" /></EntityType>
+        <EntityType Name="TeamMember">
+          <Key>
+            <PropertyRef Name="teammemberid" /></Key>
+          <Property Name="teammemberid" Type="Guid" Nullable="false" />
+          <Property Name="teammembername" Type="String" Nullable="false" />
+          <Property Name="teammemberextension" Type="String" Nullable="false" />
+          <Property Name="issupervisor" Type="Boolean" Nullable="false" />
+          <Property Name="islogged" Type="Boolean" Nullable="true" />
+          <NavigationProperty Name="Team" Relationship="CodifModel.TeamMemberTeam" FromRole="TeamMember" ToRole="Team" /></EntityType>
+        <Association Name="FK_ACDManagerAddress_ACDManagerAddressGroup">
+          <End Type="CodifModel.ACDManagerAddressGroup" Role="ACDManagerAddressGroup" Multiplicity="1" />
+          <End Type="CodifModel.ACDManagerAddress" Role="ACDManagerAddress" Multiplicity="*" /></Association>
+        <Association Name="FK_Team_ACDManagerAddressGroup">
+          <End Type="CodifModel.ACDManagerAddressGroup" Role="ACDManagerAddressGroup" Multiplicity="1" />
+          <End Type="CodifModel.Team" Role="Team" Multiplicity="*" /></Association>
+        <Association Name="TeamMemberTeam">
+          <End Type="CodifModel.Team" Role="Team" Multiplicity="*" />
+          <End Type="CodifModel.TeamMember" Role="TeamMember" Multiplicity="*" /></Association></Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="CodifModelStoreContainer" CdmEntityContainer="CodifEntities">
+          <EntitySetMapping Name="Calls">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.Calls)">
+              <MappingFragment StoreEntitySet="Calls">
+                <ScalarProperty Name="enddatetime" ColumnName="enddatetime" />
+                <ScalarProperty Name="extension" ColumnName="extension" />
+                <ScalarProperty Name="callee" ColumnName="callee" />
+                <ScalarProperty Name="calltype" ColumnName="calltype" />
+                <ScalarProperty Name="startdatetime" ColumnName="startdatetime" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="caller" ColumnName="caller" />
+                <ScalarProperty Name="callid" ColumnName="callid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Codif">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.Codif)">
+              <MappingFragment StoreEntitySet="Codif">
+                <ScalarProperty Name="codif1" ColumnName="codif" />
+                <ScalarProperty Name="active" ColumnName="active" />
+                <ScalarProperty Name="codifid" ColumnName="codifid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK_Calls_Calls" TypeName="CodifModel.FK_Calls_Calls" StoreEntitySet="Calls">
+            <EndProperty Name="Codif">
+              <ScalarProperty Name="codifid" ColumnName="codifid" />
+            </EndProperty>
+            <EndProperty Name="Calls">
+              <ScalarProperty Name="callid" ColumnName="callid" />
+            </EndProperty>
+            <Condition ColumnName="codifid" IsNull="false" />
+          </AssociationSetMapping>
+          <EntitySetMapping Name="ACDManagerAddress">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.ACDManagerAddress)">
+              <MappingFragment StoreEntitySet="ACDManagerAddress">
+                <ScalarProperty Name="pattern" ColumnName="pattern" />
+                <ScalarProperty Name="acdmanageraddressid" ColumnName="acdmanageraddressid" /></MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ACDManagerAddressGroup">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.ACDManagerAddressGroup)">
+              <MappingFragment StoreEntitySet="ACDManagerAddressGroup">
+                <ScalarProperty Name="acdmanageraddressgroupname" ColumnName="acdmanageraddressgroupname" />
+                <ScalarProperty Name="acdmanageraddressgroupid" ColumnName="acdmanageraddressgroupid" /></MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Team">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.Team)">
+              <MappingFragment StoreEntitySet="Team">
+                <ScalarProperty Name="teamdefaultdestination" ColumnName="teamdefaultdestination" />
+                <ScalarProperty Name="teamname" ColumnName="teamname" />
+                <ScalarProperty Name="teampattern" ColumnName="teampattern" />
+                <ScalarProperty Name="teamid" ColumnName="teamid" /></MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="TeamMember">
+            <EntityTypeMapping TypeName="IsTypeOf(CodifModel.TeamMember)">
+              <MappingFragment StoreEntitySet="TeamMember">
+                <ScalarProperty Name="islogged" ColumnName="islogged" />
+                <ScalarProperty Name="issupervisor" ColumnName="issupervisor" />
+                <ScalarProperty Name="teammemberextension" ColumnName="teammemberextension" />
+                <ScalarProperty Name="teammembername" ColumnName="teammembername" />
+                <ScalarProperty Name="teammemberid" ColumnName="teammemberid" /></MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <AssociationSetMapping Name="FK_ACDManagerAddress_ACDManagerAddressGroup" TypeName="CodifModel.FK_ACDManagerAddress_ACDManagerAddressGroup" StoreEntitySet="ACDManagerAddress">
+            <EndProperty Name="ACDManagerAddress">
+              <ScalarProperty Name="acdmanageraddressid" ColumnName="acdmanageraddressid" /></EndProperty>
+            <EndProperty Name="ACDManagerAddressGroup">
+              <ScalarProperty Name="acdmanageraddressgroupid" ColumnName="acdmanageraddressgroupid" /></EndProperty></AssociationSetMapping>
+          <AssociationSetMapping Name="FK_Team_ACDManagerAddressGroup" TypeName="CodifModel.FK_Team_ACDManagerAddressGroup" StoreEntitySet="Team">
+            <EndProperty Name="Team">
+              <ScalarProperty Name="teamid" ColumnName="teamid" /></EndProperty>
+            <EndProperty Name="ACDManagerAddressGroup">
+              <ScalarProperty Name="acdmanageraddressgroupid" ColumnName="acdmanageraddressgroupid" /></EndProperty></AssociationSetMapping>
+          <AssociationSetMapping Name="TeamMemberTeam" TypeName="CodifModel.TeamMemberTeam" StoreEntitySet="TeamMemberTeam">
+            <EndProperty Name="TeamMember">
+              <ScalarProperty Name="teammemberid" ColumnName="teammemberid" /></EndProperty>
+            <EndProperty Name="Team">
+              <ScalarProperty Name="teamid" ColumnName="teamid" /></EndProperty></AssociationSetMapping></EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="CodifModel">
+        <EntityTypeShape EntityType="CodifModel.Calls" Width="1.5" PointX="3" PointY="1" Height="2.5571907552083335" IsExpanded="true" />
+        <EntityTypeShape EntityType="CodifModel.Codif" Width="1.5" PointX="0.75" PointY="1.375" Height="1.7879850260416672" IsExpanded="true" />
+        <AssociationConnector Association="CodifModel.FK_Calls_Calls" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="2.2689925130208337" />
+          <ConnectorPoint PointX="3" PointY="2.2689925130208337" /></AssociationConnector>
+        <EntityTypeShape EntityType="CodifModel.ACDManagerAddress" Width="1.5" PointX="3" PointY="5" Height="1.5956835937499996" />
+        <EntityTypeShape EntityType="CodifModel.ACDManagerAddressGroup" Width="1.5" PointX="0.75" PointY="6.375" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="CodifModel.Team" Width="1.5" PointX="3" PointY="7.375" Height="2.1725878906249996" />
+        <EntityTypeShape EntityType="CodifModel.TeamMember" Width="1.5" PointX="5.25" PointY="7.375" Height="2.1725878906249996" />
+        <AssociationConnector Association="CodifModel.FK_ACDManagerAddress_ACDManagerAddressGroup" >
+          <ConnectorPoint PointX="1.5" PointY="6.375" />
+          <ConnectorPoint PointX="1.5" PointY="5.6874994999999995" />
+          <ConnectorPoint PointX="3" PointY="5.6874994999999995" /></AssociationConnector>
+        <AssociationConnector Association="CodifModel.FK_Team_ACDManagerAddressGroup" >
+          <ConnectorPoint PointX="2.25" PointY="7.7689925130208337" />
+          <ConnectorPoint PointX="3" PointY="7.7689925130208337" /></AssociationConnector>
+        <AssociationConnector Association="CodifModel.TeamMemberTeam" >
+          <ConnectorPoint PointX="4.5" PointY="8.4612939453125" />
+          <ConnectorPoint PointX="5.25" PointY="8.4612939453125" /></AssociationConnector></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

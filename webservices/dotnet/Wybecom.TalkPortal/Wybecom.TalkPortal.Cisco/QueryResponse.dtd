@@ -1,0 +1,17 @@
+﻿<!-- login query results DTD -->
+<!ELEMENT response (deviceUserResults | userDevicesResults | failure)>
+<!ELEMENT deviceUserResults (device+)>
+<!ELEMENT userDevicesResults (user+)>
+<!ELEMENT device (userID | lastlogin | none | doesNotExist)>
+<!ATTLIST device
+name NMTOKEN #REQUIRED>
+<!ELEMENT user (deviceName+ | none | doesNotExist)>
+<!ATTLIST user
+id NMTOKEN #REQUIRED>
+<!ELEMENT userID (#PCDATA)>
+<!ELEMENT lastlogin (#PCDATA)>
+<!ELEMENT deviceName (#PCDATA)>
+<!ELEMENT none EMPTY>
+<!ELEMENT doesNotExist EMPTY>
+<!ELEMENT failure (errorMessage)>
+<!ELEMENT errorMessage (#PCDATA)>

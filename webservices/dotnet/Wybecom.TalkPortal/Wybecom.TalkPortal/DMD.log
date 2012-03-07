@@ -1,0 +1,156 @@
+2011-02-07 10:21:19,413 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:21:19,413 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:21:40,555 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:23:00,068 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:23:00,068 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:23:21,061 [12] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:24:40,124 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:24:40,124 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:25:01,126 [13] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:26:20,185 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:26:20,185 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:26:41,186 [13] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:28:21,260 [14] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:30:01,319 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:31:41,379 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-02-07 10:33:21,437 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-02-07 10:34:40,495 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-02-07 10:34:40,495 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:05:35,539 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:05:35,549 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:05:56,785 [4] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:37:50,035 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:37:50,035 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:38:11,196 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:39:20,066 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:39:20,066 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:39:41,069 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:39:48,825 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:39:48,825 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:40:09,876 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:40:20,972 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:41:40,077 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:41:40,077 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:42:01,085 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:43:41,137 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:45:21,195 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:47:01,255 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:47:24,841 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:47:24,841 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:47:45,843 [13] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:48:05,981 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:48:05,981 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-13 21:48:27,113 [13] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-13 21:49:31,515 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-13 21:49:31,515 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:39:48,751 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:39:48,763 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:40:09,938 [4] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:41:13,182 [4] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:41:25,909 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:42:40,053 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:42:40,053 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:43:01,125 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:44:20,125 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:44:20,125 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:44:41,127 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:45:27,216 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:45:27,216 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:45:48,218 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:47:33,936 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:47:33,936 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:47:55,036 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:49:00,055 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:49:00,055 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:49:21,058 [14] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:51:01,115 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:51:53,551 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:51:53,551 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:52:14,565 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:52:24,675 [17] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:55:19,325 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:55:19,325 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:55:40,412 [16] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:57:00,069 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:57:00,069 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:57:12,593 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:57:12,593 [13] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:57:33,701 [13] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 07:58:40,051 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 07:58:40,051 [15] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 07:59:01,053 [15] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:00:20,107 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:00:20,108 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:00:41,110 [16] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:01:04,552 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:01:04,552 [16] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:01:25,566 [16] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:01:36,421 [12] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:02:40,074 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:02:40,075 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:03:01,088 [12] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:04:20,147 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:04:20,147 [12] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:04:41,150 [12] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:05:21,644 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:05:21,644 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:05:42,672 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:05:53,642 [12] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:07:00,050 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:07:00,050 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:07:21,061 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:09:01,118 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:10:20,165 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:10:20,165 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:10:41,166 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:11:37,827 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:11:37,827 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:11:58,848 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:12:09,568 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:13:20,036 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:13:20,037 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:13:20,037 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:13:20,037 [14] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:13:41,044 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:14:02,181 [14] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP a retourné une erreur inconnue.
+2011-04-14 08:14:08,594 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:14:08,594 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:14:29,699 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:14:40,041 [14] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:15:40,077 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:15:40,078 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:16:01,096 [10] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:17:20,150 [8] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:17:20,150 [8] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:17:41,156 [8] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:19:21,216 [11] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:20:40,268 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:20:40,268 [9] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:21:01,268 [9] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.
+2011-04-14 08:21:15,888 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:21:15,888 [10] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:21:33,931 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - LDAP connection created
+2011-04-14 08:21:33,932 [4] DEBUG Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Search (objectClass=user) from OU=Comptes Utilisateurs,DC=systalians,DC=fr on 150.1.10.106:50000
+2011-04-14 08:21:55,026 [4] ERROR Wybecom.TalkPortal.DMD.LDAP [Wybecom.TalkPortal.DMD.LDAP] - Le serveur LDAP n'est pas disponible.

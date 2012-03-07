@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : stateserverclientconfig2.xml
+    Created on : 25 juin 2009, 19:17
+    Author     : barreyo
+    Description:
+        Purpose of the document follows.
+-->
+
+<ns0:configuration  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns:ns0='http://xml.netbeans.org/schema/stateserverclientconfig'
+   xsi:schemaLocation='http://xml.netbeans.org/schema/stateserverclientconfig stateserverclientconfig.xsd'>
+        <ns0:stateserverclient>
+                <ns0:wsdlurl></ns0:wsdlurl>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+            </ns0:stateserverclient>
+        <ns0:stateserverclient>
+                <ns0:wsdlurl></ns0:wsdlurl>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+            </ns0:stateserverclient>
+        <ns0:stateserverclient>
+                <ns0:wsdlurl></ns0:wsdlurl>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+                <ns0:event name="" enabled=""></ns0:event>
+            </ns0:stateserverclient>
+
+</ns0:configuration>

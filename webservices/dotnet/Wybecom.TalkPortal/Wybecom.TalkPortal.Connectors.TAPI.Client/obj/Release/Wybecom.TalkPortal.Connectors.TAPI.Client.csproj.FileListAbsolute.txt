@@ -1,0 +1,14 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.XmlSerializers.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.XmlSerializers.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.XmlSerializers.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\bin\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.TAPI.Client\obj\Release\Wybecom.TalkPortal.Connectors.TAPI.Client.XmlSerializers.dll

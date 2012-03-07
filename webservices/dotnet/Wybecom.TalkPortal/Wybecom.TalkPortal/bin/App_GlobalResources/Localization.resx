@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CallLogsMissedTabHeader" xml:space="preserve">
+    <value>Missed calls</value>
+  </data>
+  <data name="CallLogsPanelHeader" xml:space="preserve">
+    <value>Call Logs</value>
+  </data>
+  <data name="CallLogsPlacedTabHeader" xml:space="preserve">
+    <value>Placed calls</value>
+  </data>
+  <data name="CallLogsReceivedTabHeader" xml:space="preserve">
+    <value>Received calls</value>
+  </data>
+  <data name="CallLogsSettingsApply" xml:space="preserve">
+    <value>Apply Call Logs Settings</value>
+  </data>
+  <data name="CallLogsSettingsCallLogs" xml:space="preserve">
+    <value>Call Logs</value>
+  </data>
+  <data name="CallLogsSettingsCallLogsWSURL" xml:space="preserve">
+    <value>Call Logs WS URL</value>
+  </data>
+  <data name="CallLogsSettingsCSS" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="CallLogsSettingsCTIClient" xml:space="preserve">
+    <value>CTI Client ID</value>
+  </data>
+  <data name="CallLogsSettingsDMDWSURL" xml:space="preserve">
+    <value>DMD WS URL</value>
+  </data>
+  <data name="CallLogsSettingsEmptyResults" xml:space="preserve">
+    <value>No entries</value>
+  </data>
+  <data name="CallLogsSettingsEnableLookup" xml:space="preserve">
+    <value>Enable Lookup</value>
+  </data>
+  <data name="CallLogsSettingsEnablePresence" xml:space="preserve">
+    <value>Enable Presence</value>
+  </data>
+  <data name="CallLogsSettingsFeatures" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="CallLogsSettingsFieldset" xml:space="preserve">
+    <value>CallLogs Client</value>
+  </data>
+  <data name="CallLogsSettingsMissedTab" xml:space="preserve">
+    <value>Missed Tab Label</value>
+  </data>
+  <data name="CallLogsSettingsPlacedTab" xml:space="preserve">
+    <value>Placed Tab Label</value>
+  </data>
+  <data name="CallLogsSettingsPresenceLength" xml:space="preserve">
+    <value>Presence Extension Length</value>
+  </data>
+  <data name="CallLogsSettingsReceivedTab" xml:space="preserve">
+    <value>Received Tab Label</value>
+  </data>
+  <data name="CallLogsSettingsUI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="CTIClientFieldset" xml:space="preserve">
+    <value>CTI Client</value>
+  </data>
+  <data name="CTIClientSettingsAgentMode" xml:space="preserve">
+    <value>Enable Agent Mode</value>
+  </data>
+  <data name="CTIClientSettingsApply" xml:space="preserve">
+    <value>Apply CTI Client Settings</value>
+  </data>
+  <data name="CTIClientSettingsAuthenticationMode" xml:space="preserve">
+    <value>Authentication Mode</value>
+  </data>
+  <data name="CTIClientSettingsCbDisplay" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="CTIClientSettingsCbDisplayCopyright" xml:space="preserve">
+    <value>Display Copyright</value>
+  </data>
+  <data name="CTIClientSettingsCbDisplayInput" xml:space="preserve">
+    <value>Display Input</value>
+  </data>
+  <data name="CTIClientSettingsCbDisplayPhoneControl" xml:space="preserve">
+    <value>Display Phone Control</value>
+  </data>
+  <data name="CTIClientSettingsCbDisplayStatus" xml:space="preserve">
+    <value>Display Status</value>
+  </data>
+  <data name="CTIClientSettingsDMDWSURL" xml:space="preserve">
+    <value>DMD Web Services, DMDWS URL</value>
+  </data>
+  <data name="CTIClientSettingsEnableAlert" xml:space="preserve">
+    <value>Enable Alert</value>
+  </data>
+  <data name="CTIClientSettingsEnableCallLogs" xml:space="preserve">
+    <value>Enable Call Logs</value>
+  </data>
+  <data name="CTIClientSettingsEnableConsultTransfer" xml:space="preserve">
+    <value>Enable Consult Transfer</value>
+  </data>
+  <data name="CTIClientSettingsEnableDirectory" xml:space="preserve">
+    <value>Enable Directory</value>
+  </data>
+  <data name="CTIClientSettingsEnableDND" xml:space="preserve">
+    <value>Enable DND</value>
+  </data>
+  <data name="CTIClientSettingsEnableHold" xml:space="preserve">
+    <value>Enable Hold</value>
+  </data>
+  <data name="CTIClientSettingsEnableTransfer" xml:space="preserve">
+    <value>Enable Blind Transfer</value>
+  </data>
+  <data name="CTIClientSettingsEnableTransferLookup" xml:space="preserve">
+    <value>Enable Transfer Lookup</value>
+  </data>
+  <data name="CTIClientSettingsEnableTransferPopup" xml:space="preserve">
+    <value>Enable Transfer Popup</value>
+  </data>
+  <data name="CTIClientSettingsEnableVoiceMail" xml:space="preserve">
+    <value>Enable Voicemail</value>
+  </data>
+  <data name="CTIClientSettingsExtension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="CTIClientSettingsFeatures" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="CTIClientSettingsPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CTIClientSettingsPWSCTIServerURL" xml:space="preserve">
+    <value>Proxy Web Services, CTI Server URL</value>
+  </data>
+  <data name="CTIClientSettingsPWSLineControlServerURL" xml:space="preserve">
+    <value>Proxy Web Services, Line Control Server URL</value>
+  </data>
+  <data name="CTIClientSettingsTelephony" xml:space="preserve">
+    <value>Telephony, Presence</value>
+  </data>
+  <data name="CTIClientSettingsUI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="CTIClientSettingsUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="CTIClientSettingsVoiceMail" xml:space="preserve">
+    <value>Voicemail Extension</value>
+  </data>
+  <data name="CTIControlTitle" xml:space="preserve">
+    <value>T.A.L.K. Demo</value>
+  </data>
+  <data name="CTIPanelHeader" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="DMDClientFieldset" xml:space="preserve">
+    <value>DMD Client</value>
+  </data>
+  <data name="DMDClientSettingsAddFilter" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DMDClientSettingsApply" xml:space="preserve">
+    <value>Apply DMD Settings</value>
+  </data>
+  <data name="DMDClientSettingsCSS" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="DMDClientSettingsCTIClient" xml:space="preserve">
+    <value>CTI Client ID</value>
+  </data>
+  <data name="DMDClientSettingsDeleteFilter" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DMDClientSettingsDirectory" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="DMDClientSettingsDirectoryName" xml:space="preserve">
+    <value>Directory Name</value>
+  </data>
+  <data name="DMDClientSettingsDisplay" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="DMDClientSettingsDMDWS" xml:space="preserve">
+    <value>DMDWS URL</value>
+  </data>
+  <data name="DMDClientSettingsEnableConsultTransfer" xml:space="preserve">
+    <value>Enable Consult Transfer</value>
+  </data>
+  <data name="DMDClientSettingsEnableGSMConsultTransfer" xml:space="preserve">
+    <value>Enable GSM Consult Transfer</value>
+  </data>
+  <data name="DMDClientSettingsEnableGSMTransfer" xml:space="preserve">
+    <value>Enable GSM Transfer</value>
+  </data>
+  <data name="DMDClientSettingsEnablePaging" xml:space="preserve">
+    <value>Enable Paging</value>
+  </data>
+  <data name="DMDClientSettingsEnableSorting" xml:space="preserve">
+    <value>Enable Sorting</value>
+  </data>
+  <data name="DMDClientSettingsEnableTransfer" xml:space="preserve">
+    <value>Enable Blind Transfer</value>
+  </data>
+  <data name="DMDClientSettingsEnableTransferLookup" xml:space="preserve">
+    <value>Enable Transfer Lookup</value>
+  </data>
+  <data name="DMDClientSettingsFeatures" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="DMDClientSettingsFilterFieldset" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="DMDClientSettingsFilterLabel" xml:space="preserve">
+    <value>Filter Label</value>
+  </data>
+  <data name="DMDClientSettingsFilterValue" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="DMDClientSettingsResultsHeader" xml:space="preserve">
+    <value>Results Header</value>
+  </data>
+  <data name="DMDClientSettingsSearchHeader" xml:space="preserve">
+    <value>Search Header</value>
+  </data>
+  <data name="DMDClientSettingsShowHeader" xml:space="preserve">
+    <value>Show Header</value>
+  </data>
+  <data name="DMDClientSettingsTargetControl" xml:space="preserve">
+    <value>Target Control</value>
+  </data>
+  <data name="DMDClientSettingsUI" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="DMDPanelHeader" xml:space="preserve">
+    <value>DMD</value>
+  </data>
+  <data name="EmptyCallLogsText" xml:space="preserve">
+    <value>No entries</value>
+  </data>
+  <data name="SettingsPanelHeader" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="DMDAddAttribute" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DMDAddCiscoDirectoryAXLUser" xml:space="preserve">
+    <value>AXL User</value>
+  </data>
+  <data name="DMDAddCiscoDirectoryAXLUserPassword" xml:space="preserve">
+    <value>AXL User Password</value>
+  </data>
+  <data name="DMDAddCiscoDirectoryFieldset" xml:space="preserve">
+    <value>Cisco Directory Settings</value>
+  </data>
+  <data name="DMDAddCiscoDirectoryServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="DMDAddDirectoryName" xml:space="preserve">
+    <value>Directory Identification</value>
+  </data>
+  <data name="DMDAddDirectoryNameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DMDAddDirectoryType" xml:space="preserve">
+    <value>DirectoryType</value>
+  </data>
+  <data name="DMDAddField" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DMDAddLDAPAttribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="DMDAddLDAPAttributeFieldset" xml:space="preserve">
+    <value>LDAP Attributes</value>
+  </data>
+  <data name="DMDAddLDAPAuthentication" xml:space="preserve">
+    <value>Authentication mode</value>
+  </data>
+  <data name="DMDAddLDAPFieldset" xml:space="preserve">
+    <value>LDAP Settings</value>
+  </data>
+  <data name="DMDAddLDAPFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="DMDAddLDAPNumberPage" xml:space="preserve">
+    <value>Number of page</value>
+  </data>
+  <data name="DMDAddLDAPPageSize" xml:space="preserve">
+    <value>Page size</value>
+  </data>
+  <data name="DMDAddLDAPServer" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="DMDAddLDAPTargetOU" xml:space="preserve">
+    <value>Target OU</value>
+  </data>
+  <data name="DMDAddLDAPUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="DMDAddLDAPUserPassword" xml:space="preserve">
+    <value>User Password</value>
+  </data>
+  <data name="DMDAddSQLCommand" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="DMDAddSQLDSN" xml:space="preserve">
+    <value>DSN</value>
+  </data>
+  <data name="DMDAddSQLFieldset" xml:space="preserve">
+    <value>SQL Directory Settings</value>
+  </data>
+  <data name="DMDAddSQLFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="DMDAddSQLPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DMDAddSQLUID" xml:space="preserve">
+    <value>UID</value>
+  </data>
+  <data name="DMDAddTitle" xml:space="preserve">
+    <value>Add a directory</value>
+  </data>
+  <data name="DMDApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="DMDCiscoFilters" xml:space="preserve">
+    <value>Cisco IP Phone Filters</value>
+  </data>
+  <data name="DMDCiscoFirstNameField" xml:space="preserve">
+    <value>First Name Field Name</value>
+  </data>
+  <data name="DMDCiscoLastNameField" xml:space="preserve">
+    <value>Last Name Field Name</value>
+  </data>
+  <data name="DMDCiscoNameFieldFieldFormatter" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DMDCiscoTelephoneField" xml:space="preserve">
+    <value>Telephone Number Field Name</value>
+  </data>
+  <data name="DMDCiscoTelephoneFieldFieldFormatter" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="DMDClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="DMDConfigEmpty" xml:space="preserve">
+    <value>DMD config is empty or does not exist</value>
+  </data>
+  <data name="DMDDeleteAttribute" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DMDDeleteField" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DMDEditTitle" xml:space="preserve">
+    <value>Edit a directory</value>
+  </data>
+  <data name="DMDFieldFormatterFieldset" xml:space="preserve">
+    <value>Field Formatters</value>
+  </data>
+  <data name="DMDFieldName" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="DMDFieldPattern" xml:space="preserve">
+    <value>Value (pattern)</value>
+  </data>
+  <data name="DMDFieldType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DMDFieldTypeGSM" xml:space="preserve">
+    <value>GSM</value>
+  </data>
+  <data name="DMDFieldTypeIdentity" xml:space="preserve">
+    <value>Identity</value>
+  </data>
+  <data name="DMDFieldTypeMail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="DMDFieldTypeOther" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="DMDFieldTypeTelephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="DMDManagementTitle" xml:space="preserve">
+    <value>Dynamic Multi Directory Management</value>
+  </data>
+  <data name="DMDNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="DMDSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="DMDSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="DMDTest" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="EMConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="EMExtension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="EMTitle" xml:space="preserve">
+    <value>T.A.L.K. Cisco Extension Mobility Enhencements</value>
+  </data>
+  <data name="CTIClientSettingsCallLogsWSURL" xml:space="preserve">
+    <value>Proxy Web Services, Call Logs Server URL</value>
+  </data>
+  <data name="CTIClientSettingsCodifMode" xml:space="preserve">
+    <value>Codification filter</value>
+  </data>
+  <data name="CTIClientSettingsEnableCodif" xml:space="preserve">
+    <value>Enable Codification</value>
+  </data>
+  <data name="AddCodif" xml:space="preserve">
+    <value>Add a code</value>
+  </data>
+  <data name="CodifEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="CodifName" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="NoCodif" xml:space="preserve">
+    <value>Empty dataset</value>
+  </data>
+</root>

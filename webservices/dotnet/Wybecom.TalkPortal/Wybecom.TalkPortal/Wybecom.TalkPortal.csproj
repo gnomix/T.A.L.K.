@@ -1,0 +1,638 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED5842ED-6155-41E7-988A-B301DD2F67DE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wybecom.TalkPortal</RootNamespace>
+    <AssemblyName>Wybecom.TalkPortal</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkSubset>Full</TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30512.20315, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Wybecom.Moovis\Wybecom.Moovis\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2005\Projects\Log4Net\log4net-1.2.10\bin\net\2.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.DynamicData, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.DynamicData\3.5.0.0__31bf3856ad364e35\System.Web.DynamicData.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Localization.fr-FR.designer.cs">
+      <DependentUpon>Localization.fr-FR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CodifMgt.aspx.cs">
+      <DependentUpon>CodifMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodifMgt.aspx.designer.cs">
+      <DependentUpon>CodifMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CTIControl.aspx.cs">
+      <DependentUpon>CTIControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CTIControl.aspx.designer.cs">
+      <DependentUpon>CTIControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DMDAdd.aspx.cs">
+      <DependentUpon>DMDAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DMDAdd.aspx.designer.cs">
+      <DependentUpon>DMDAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DMDEdit.aspx.cs">
+      <DependentUpon>DMDEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DMDEdit.aspx.designer.cs">
+      <DependentUpon>DMDEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DMDPage.Master.cs">
+      <DependentUpon>DMDPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DMDPage.Master.designer.cs">
+      <DependentUpon>DMDPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DMDMgt.aspx.cs">
+      <DependentUpon>DMDMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DMDMgt.aspx.designer.cs">
+      <DependentUpon>DMDMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DMDWS.asmx.cs">
+      <DependentUpon>DMDWS.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtensionMobility.aspx.cs">
+      <DependentUpon>ExtensionMobility.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExtensionMobility.aspx.designer.cs">
+      <DependentUpon>ExtensionMobility.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="JSONP.cs" />
+    <Compile Include="Talk_Pro.Master.cs">
+      <DependentUpon>Talk_Pro.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Talk_Pro.Master.designer.cs">
+      <DependentUpon>Talk_Pro.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Team.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamMgt.aspx.cs">
+      <DependentUpon>TeamMgt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamMgt.aspx.designer.cs">
+      <DependentUpon>TeamMgt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamService.svc.cs">
+      <DependentUpon>TeamService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Widget.aspx.cs">
+      <DependentUpon>Widget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Widget.aspx.designer.cs">
+      <DependentUpon>Widget.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\black.css" />
+    <Content Include="css\black_bg.css" />
+    <Content Include="css\dmd\component.css" />
+    <Content Include="css\dmd\general.css" />
+    <Content Include="css\dmd\icon.css" />
+    <Content Include="css\dmd\menu.css" />
+    <Content Include="css\dmd\rounded.css" />
+    <Content Include="css\dmd\system.css" />
+    <Content Include="css\dmd\template.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Default.Master" />
+    <Content Include="css\template.css" />
+    <Content Include="DMDMgt.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="img\dmd\arrow.png" />
+    <Content Include="img\dmd\bg-menu.gif" />
+    <Content Include="img\dmd\calendar.png" />
+    <Content Include="img\dmd\header\icon-48-archive.png" />
+    <Content Include="img\dmd\header\icon-48-article-add.png" />
+    <Content Include="img\dmd\header\icon-48-article.png" />
+    <Content Include="img\dmd\header\icon-48-category.png" />
+    <Content Include="img\dmd\header\icon-48-checkin.png" />
+    <Content Include="img\dmd\header\icon-48-component.png" />
+    <Content Include="img\dmd\header\icon-48-config.png" />
+    <Content Include="img\dmd\header\icon-48-content.png" />
+    <Content Include="img\dmd\header\icon-48-cpanel.png" />
+    <Content Include="img\dmd\header\icon-48-extension.png" />
+    <Content Include="img\dmd\header\icon-48-frontpage.png" />
+    <Content Include="img\dmd\header\icon-48-generic.png" />
+    <Content Include="img\dmd\header\icon-48-help_header.png" />
+    <Content Include="img\dmd\header\icon-48-inbox.png" />
+    <Content Include="img\dmd\header\icon-48-info.png" />
+    <Content Include="img\dmd\header\icon-48-install.png" />
+    <Content Include="img\dmd\header\icon-48-language.png" />
+    <Content Include="img\dmd\header\icon-48-massmail.png" />
+    <Content Include="img\dmd\header\icon-48-media.png" />
+    <Content Include="img\dmd\header\icon-48-menu.png" />
+    <Content Include="img\dmd\header\icon-48-menumgr.png" />
+    <Content Include="img\dmd\header\icon-48-module.png" />
+    <Content Include="img\dmd\header\icon-48-plugin.png" />
+    <Content Include="img\dmd\header\icon-48-print.png" />
+    <Content Include="img\dmd\header\icon-48-section.png" />
+    <Content Include="img\dmd\header\icon-48-static.png" />
+    <Content Include="img\dmd\header\icon-48-stats.png" />
+    <Content Include="img\dmd\header\icon-48-themes.png" />
+    <Content Include="img\dmd\header\icon-48-trash.png" />
+    <Content Include="img\dmd\header\icon-48-user.png" />
+    <Content Include="img\dmd\header\user-group-48.png" />
+    <Content Include="img\dmd\j_arrow.png" />
+    <Content Include="img\dmd\j_arrow_down.png" />
+    <Content Include="img\dmd\j_arrow_left.png" />
+    <Content Include="img\dmd\j_border.png" />
+    <Content Include="img\dmd\j_bottom.png" />
+    <Content Include="img\dmd\j_button1_admin.png" />
+    <Content Include="img\dmd\j_button1_collate.png" />
+    <Content Include="img\dmd\j_button1_left.png" />
+    <Content Include="img\dmd\j_button1_next.png" />
+    <Content Include="img\dmd\j_button1_prev.png" />
+    <Content Include="img\dmd\j_button1_refresh.png" />
+    <Content Include="img\dmd\j_button1_right.png" />
+    <Content Include="img\dmd\j_button1_site.png" />
+    <Content Include="img\dmd\j_button2_blank.png" />
+    <Content Include="img\dmd\j_button2_first.png" />
+    <Content Include="img\dmd\j_button2_first_off.png" />
+    <Content Include="img\dmd\j_button2_image.png" />
+    <Content Include="img\dmd\j_button2_image_rtl.png" />
+    <Content Include="img\dmd\j_button2_last.png" />
+    <Content Include="img\dmd\j_button2_last_off.png" />
+    <Content Include="img\dmd\j_button2_left.png" />
+    <Content Include="img\dmd\j_button2_left_cap.png" />
+    <Content Include="img\dmd\j_button2_next.png" />
+    <Content Include="img\dmd\j_button2_next_off.png" />
+    <Content Include="img\dmd\j_button2_pagebreak.png" />
+    <Content Include="img\dmd\j_button2_pagebreak_rtl.png" />
+    <Content Include="img\dmd\j_button2_prev.png" />
+    <Content Include="img\dmd\j_button2_prev_off.png" />
+    <Content Include="img\dmd\j_button2_readmore.png" />
+    <Content Include="img\dmd\j_button2_readmore_rtl.png" />
+    <Content Include="img\dmd\j_button2_right.png" />
+    <Content Include="img\dmd\j_button2_right_cap.png" />
+    <Content Include="img\dmd\j_corner_bl.png" />
+    <Content Include="img\dmd\j_corner_br.png" />
+    <Content Include="img\dmd\j_crn_bl_dark.png" />
+    <Content Include="img\dmd\j_crn_bl_light.png" />
+    <Content Include="img\dmd\j_crn_bl_med.png" />
+    <Content Include="img\dmd\j_crn_br_dark.png" />
+    <Content Include="img\dmd\j_crn_br_light.png" />
+    <Content Include="img\dmd\j_crn_br_med.png" />
+    <Content Include="img\dmd\j_crn_tl_dark.png" />
+    <Content Include="img\dmd\j_crn_tl_light.png" />
+    <Content Include="img\dmd\j_crn_tl_med.png" />
+    <Content Include="img\dmd\j_crn_tr_dark.png" />
+    <Content Include="img\dmd\j_crn_tr_light.png" />
+    <Content Include="img\dmd\j_crn_tr_med.png" />
+    <Content Include="img\dmd\j_divider.png" />
+    <Content Include="img\dmd\j_joomla_box.jpg" />
+    <Content Include="img\dmd\j_login_lock.jpg" />
+    <Content Include="img\dmd\menu\icon-16-archive.png" />
+    <Content Include="img\dmd\menu\icon-16-article.png" />
+    <Content Include="img\dmd\menu\icon-16-category.png" />
+    <Content Include="img\dmd\menu\icon-16-checkin.png" />
+    <Content Include="img\dmd\menu\icon-16-component.png" />
+    <Content Include="img\dmd\menu\icon-16-config.png" />
+    <Content Include="img\dmd\menu\icon-16-content.png" />
+    <Content Include="img\dmd\menu\icon-16-cpanel.png" />
+    <Content Include="img\dmd\menu\icon-16-default.png" />
+    <Content Include="img\dmd\menu\icon-16-frontpage.png" />
+    <Content Include="img\dmd\menu\icon-16-help.png" />
+    <Content Include="img\dmd\menu\icon-16-info.png" />
+    <Content Include="img\dmd\menu\icon-16-install.png" />
+    <Content Include="img\dmd\menu\icon-16-language.png" />
+    <Content Include="img\dmd\menu\icon-16-logout.png" />
+    <Content Include="img\dmd\menu\icon-16-massmail.png" />
+    <Content Include="img\dmd\menu\icon-16-media.png" />
+    <Content Include="img\dmd\menu\icon-16-menu.png" />
+    <Content Include="img\dmd\menu\icon-16-menumgr.png" />
+    <Content Include="img\dmd\menu\icon-16-messages.png" />
+    <Content Include="img\dmd\menu\icon-16-module.png" />
+    <Content Include="img\dmd\menu\icon-16-plugin.png" />
+    <Content Include="img\dmd\menu\icon-16-print.png" />
+    <Content Include="img\dmd\menu\icon-16-section.png" />
+    <Content Include="img\dmd\menu\icon-16-static.png" />
+    <Content Include="img\dmd\menu\icon-16-stats.png" />
+    <Content Include="img\dmd\menu\icon-16-themes.png" />
+    <Content Include="img\dmd\menu\icon-16-trash.png" />
+    <Content Include="img\dmd\menu\icon-16-user.png" />
+    <Content Include="img\dmd\menu\user-group-16.png" />
+    <Content Include="img\dmd\mini_icon.png" />
+    <Content Include="img\dmd\notice-alert.png" />
+    <Content Include="img\dmd\notice-download.png" />
+    <Content Include="img\dmd\notice-info.png" />
+    <Content Include="img\dmd\notice-note.png" />
+    <Content Include="img\dmd\selector-arrow.png" />
+    <Content Include="img\dmd\toolbar\icon-32-adduser.png" />
+    <Content Include="img\dmd\toolbar\icon-32-apply.png" />
+    <Content Include="img\dmd\toolbar\icon-32-archive.png" />
+    <Content Include="img\dmd\toolbar\icon-32-back.png" />
+    <Content Include="img\dmd\toolbar\icon-32-cancel.png" />
+    <Content Include="img\dmd\toolbar\icon-32-config.png" />
+    <Content Include="img\dmd\toolbar\icon-32-copy.png" />
+    <Content Include="img\dmd\toolbar\icon-32-css.png" />
+    <Content Include="img\dmd\toolbar\icon-32-default.png" />
+    <Content Include="img\dmd\toolbar\icon-32-delete.png" />
+    <Content Include="img\dmd\toolbar\icon-32-download.png" />
+    <Content Include="img\dmd\toolbar\icon-32-edit.png" />
+    <Content Include="img\dmd\toolbar\icon-32-export.png" />
+    <Content Include="img\dmd\toolbar\icon-32-forward.png" />
+    <Content Include="img\dmd\toolbar\icon-32-help.png" />
+    <Content Include="img\dmd\toolbar\icon-32-html.png" />
+    <Content Include="img\dmd\toolbar\icon-32-lock.png" />
+    <Content Include="img\dmd\toolbar\icon-32-menu.png" />
+    <Content Include="img\dmd\toolbar\icon-32-move.png" />
+    <Content Include="img\dmd\toolbar\icon-32-new.png" />
+    <Content Include="img\dmd\toolbar\icon-32-preview.png" />
+    <Content Include="img\dmd\toolbar\icon-32-print.png" />
+    <Content Include="img\dmd\toolbar\icon-32-publish.png" />
+    <Content Include="img\dmd\toolbar\icon-32-refresh.png" />
+    <Content Include="img\dmd\toolbar\icon-32-revert.png" />
+    <Content Include="img\dmd\toolbar\icon-32-save.png" />
+    <Content Include="img\dmd\toolbar\icon-32-search.png" />
+    <Content Include="img\dmd\toolbar\icon-32-send.png" />
+    <Content Include="img\dmd\toolbar\icon-32-trash.png" />
+    <Content Include="img\dmd\toolbar\icon-32-unarchive.png" />
+    <Content Include="img\dmd\toolbar\icon-32-unpublish.png" />
+    <Content Include="img\dmd\toolbar\icon-32-upload.png" />
+    <Content Include="img\dmd\toolbar\icon-32-xml.png" />
+    <Content Include="img\dmd\toolbar\user-group-32.png" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\mw_box_bl.png" />
+    <Content Include="img\mw_box_br.png" />
+    <Content Include="img\mw_box_tl.png" />
+    <Content Include="img\mw_box_tr.png" />
+    <Content Include="img\mw_content_b.png" />
+    <Content Include="img\mw_content_b_l.png" />
+    <Content Include="img\mw_content_b_r.png" />
+    <Content Include="img\mw_content_t.png" />
+    <Content Include="img\mw_content_t_l.png" />
+    <Content Include="img\mw_content_t_r.png" />
+    <Content Include="img\mw_footer_b.png" />
+    <Content Include="img\mw_footer_b_l.png" />
+    <Content Include="img\mw_footer_b_r.png" />
+    <Content Include="img\mw_footer_separator.png" />
+    <Content Include="img\mw_header_b.png" />
+    <Content Include="img\mw_header_l_b.png" />
+    <Content Include="img\mw_header_r_b.png" />
+    <Content Include="img\mw_header_t.png" />
+    <Content Include="img\mw_header_t_l.png" />
+    <Content Include="img\mw_header_t_r.png" />
+    <Content Include="img\mw_line_grey.png" />
+    <Content Include="img\mw_menu_active_bg.png" />
+    <Content Include="img\mw_menu_cap_l.png" />
+    <Content Include="img\mw_menu_cap_r.png" />
+    <Content Include="img\mw_menu_normal_bg.png" />
+    <Content Include="img\mw_menu_separator.png" />
+    <Content Include="img\mw_shadow_l.png" />
+    <Content Include="img\mw_shadow_r.png" />
+    <Content Include="img\spacer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Cisco.IPPhone\Wybecom.TalkPortal.Cisco.IPPhone.csproj">
+      <Project>{A378EED1-5322-4DFF-9022-88222599F070}</Project>
+      <Name>Wybecom.TalkPortal.Cisco.IPPhone</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Cisco\Wybecom.TalkPortal.Cisco.csproj">
+      <Project>{BCB13570-440F-431C-9042-13CDDF06F6F7}</Project>
+      <Name>Wybecom.TalkPortal.Cisco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.CTI.CallLogs.Controls\Wybecom.TalkPortal.CTI.CallLogs.Controls.csproj">
+      <Project>{AF317E61-B0D2-4F75-AFCF-173843A497EF}</Project>
+      <Name>Wybecom.TalkPortal.CTI.CallLogs.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.CTI.Controls\Wybecom.TalkPortal.CTI.Controls.csproj">
+      <Project>{78B16EFB-02A9-450E-B84C-EC7F0493129D}</Project>
+      <Name>Wybecom.TalkPortal.CTI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.DMD.Controls\Wybecom.TalkPortal.DMD.Controls.csproj">
+      <Project>{3FEB02A2-65FD-4D6B-A6DB-EA421601A2A4}</Project>
+      <Name>Wybecom.TalkPortal.DMD.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.DMD\Wybecom.TalkPortal.DMD.csproj">
+      <Project>{B47CE9DB-B352-4E7C-931D-54896CBBFFF7}</Project>
+      <Name>Wybecom.TalkPortal.DMD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Providers\Wybecom.TalkPortal.Providers.csproj">
+      <Project>{B685CF29-39AA-4BF7-BC68-76B768BA109A}</Project>
+      <Name>Wybecom.TalkPortal.Providers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\cti\CTIClient.css" />
+    <Content Include="css\dmd\modal.css" />
+    <Content Include="CTIControl.aspx" />
+    <Content Include="DMDAdd.aspx" />
+    <Content Include="DMDEdit.aspx" />
+    <Content Include="DMDPage.Master" />
+    <Content Include="DMDWS.asmx" />
+    <Content Include="img\cti\answer_call_32x32.png" />
+    <Content Include="img\cti\calllogs.png" />
+    <Content Include="img\cti\disable_dnd-32x32.png" />
+    <Content Include="img\cti\divert_call-32x32.png" />
+    <Content Include="img\cti\dnd-32x32.png" />
+    <Content Include="img\cti\end_answer_call_32x32.png" />
+    <Content Include="img\cti\end_place_call_32x32.png" />
+    <Content Include="img\cti\hold_call-32x32.png" />
+    <Content Include="img\cti\mail-32x32.png" />
+    <Content Include="img\cti\new_mail-32x32.png" />
+    <Content Include="img\cti\phone-32x32.png" />
+    <Content Include="img\cti\phonebook.png" />
+    <Content Include="img\cti\place_call_32x32.png" />
+    <Content Include="img\cti\small_phonebook.png" />
+    <Content Include="img\cti\transfer_call-32x32.png" />
+    <Content Include="img\cti\unhold_call-32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Wybecom\css\constant.css" />
+    <Content Include="App_Themes\Wybecom\css\template.css" />
+    <Content Include="App_Themes\Wybecom\css\webpart.css" />
+    <Content Include="App_Themes\Wybecom\images\anglais.jpg" />
+    <Content Include="App_Themes\Wybecom\images\background_module.jpg" />
+    <Content Include="App_Themes\Wybecom\images\background_module2.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border5_bottom.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_bottom.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_bottom2.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_left.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_right.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_top.jpg" />
+    <Content Include="App_Themes\Wybecom\images\border_top5.jpg" />
+    <Content Include="App_Themes\Wybecom\images\bottom_bar.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner5_bottom_left.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner5_bottom_right.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner5_top_left.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner5_top_right.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner_bottom_left.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner_bottom_right.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner_top_left.jpg" />
+    <Content Include="App_Themes\Wybecom\images\corner_top_right.jpg" />
+    <Content Include="App_Themes\Wybecom\images\folder.jpg" />
+    <Content Include="App_Themes\Wybecom\images\fond moovis.jpg" />
+    <Content Include="App_Themes\Wybecom\images\fond talk.jpg" />
+    <Content Include="App_Themes\Wybecom\images\fond wybecom.jpg" />
+    <Content Include="App_Themes\Wybecom\images\francais.jpg" />
+    <Content Include="App_Themes\Wybecom\images\hover_top_menu.jpg" />
+    <Content Include="App_Themes\Wybecom\images\login_boutton.png" />
+    <Content Include="App_Themes\Wybecom\images\logo.jpg" />
+    <Content Include="App_Themes\Wybecom\images\logo_talk.png" />
+    <Content Include="App_Themes\Wybecom\images\logo_wybecom_moovis.png" />
+    <Content Include="App_Themes\Wybecom\images\logo_wybecom_talk.png" />
+    <Content Include="App_Themes\Wybecom\images\middle_bar.jpg" />
+    <Content Include="App_Themes\Wybecom\images\puce.jpg" />
+    <Content Include="App_Themes\Wybecom\images\read_more.png" />
+    <Content Include="App_Themes\Wybecom\images\rss_picto.jpg" />
+    <Content Include="App_Themes\Wybecom\images\search_boutton.png" />
+    <Content Include="App_Themes\Wybecom\images\separation_bottom_bar.jpg" />
+    <Content Include="App_Themes\Wybecom\images\separation_middle_bar.jpg" />
+    <Content Include="App_Themes\Wybecom\images\spain.jpg" />
+    <Content Include="App_Themes\Wybecom\images\survole_moovis_css.png" />
+    <Content Include="App_Themes\Wybecom\images\survole_moovis_css2.png" />
+    <Content Include="App_Themes\Wybecom\images\Talk logo.jpg" />
+    <Content Include="App_Themes\Wybecom\images\text_box_search.png" />
+    <Content Include="App_Themes\Wybecom\images\top_bar.jpg" />
+    <Content Include="App_Themes\Wybecom\images\top_bar_degrade.jpg" />
+    <Content Include="App_Themes\Wybecom\images\twitter_picto.jpg" />
+    <Content Include="img\closebox.png" />
+    <Content Include="Talk.CTIServer.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Talk_Pro.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\available.png" />
+    <Content Include="img\bookmark-new.png" />
+    <Content Include="img\busy.png" />
+    <Content Include="img\consulttransfer.png" />
+    <Content Include="img\directtransfer.png" />
+    <Content Include="img\donotdisturb.png" />
+    <Content Include="img\forwardalldn.png" />
+    <Content Include="img\forwardallmevo.png" />
+    <Content Include="img\logout.png" />
+    <Content Include="img\private.png" />
+    <Content Include="img\unknown.png" />
+    <Content Include="Widget.aspx" />
+    <Content Include="Wybecom.TalkPortal.Cisco.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.CTI.CallLogs.Controls.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.CTI.Controls.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.DMD.Controls.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.DMD.dll.talkLog">
+    </Content>
+    <Content Include="Wybecom.TalkPortal.Providers.dll.talkLog">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\TeamDB.mdf">
+    </Content>
+    <Content Include="App_Data\TeamDB_log.ldf">
+      <DependentUpon>TeamDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="ExtensionMobility.aspx" />
+    <Content Include="License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="talk.ico" />
+    <Content Include="talk_banniere_setup.jpg" />
+    <Content Include="TeamMgt.aspx" />
+    <Content Include="TeamService.svc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Team.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Team.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Localization.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Localization.fr-FR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Localization.fr-FR.designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CodifMgt.aspx" />
+    <Content Include="img\1302720979_refresh.png" />
+    <Content Include="img\1302721031_edit-trash.png" />
+    <Content Include="img\1302721125_27-Edit Text.png" />
+    <Content Include="img\1302721178_insert-link.png" />
+    <Content Include="img\1302721246_edit_add.png" />
+    <Content Include="img\1302721334_edit-select-all.png" />
+    <Content Include="img\1302721388_db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TEAMDB.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64085</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

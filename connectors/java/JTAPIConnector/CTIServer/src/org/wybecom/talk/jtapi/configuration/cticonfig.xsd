@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://xml.netbeans.org/schema/cticonfig"
+            xmlns:tns="http://xml.netbeans.org/schema/cticonfig"
+            elementFormDefault="qualified">
+    <xsd:complexType name="xmlprovider">
+        <xsd:sequence>
+            <xsd:element name="ctiprovider" type="xsd:string"></xsd:element>
+            <xsd:element name="ctiuser" type="xsd:string"></xsd:element>
+            <xsd:element name="ctiuserpassword" type="xsd:string"></xsd:element>
+            <xsd:element name="backupctiprovider" type="xsd:string"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="cticonfig">
+        <xsd:sequence>
+            <xsd:element name="provider" type="tns:xmlprovider" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="configuration" type="tns:cticonfig"></xsd:element>
+</xsd:schema>

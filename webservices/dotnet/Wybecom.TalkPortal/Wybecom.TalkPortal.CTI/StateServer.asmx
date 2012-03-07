@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="StateServer.asmx.cs" Class="Wybecom.TalkPortal.CTI.StateServer" %>

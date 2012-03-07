@@ -1,0 +1,63 @@
+2009-09-28 10:18:51,051 [4] DEBUG Wybecom.TalkPortal.Providers.TalkAuthenticationProvider [Wybecom.TalkPortal.Providers.TalkAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 10:18:51,156 [4] DEBUG Wybecom.TalkPortal.Providers.TalkAuthenticationProvider [Wybecom.TalkPortal.Providers.TalkAuthenticationProvider] - Generated token: o+bvQKnze4CZOYxN1kJpFZYb9uJ9xTNvwMyq+2ortTk=
+2009-09-28 10:30:50,543 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 10:30:50,563 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 10:30:56,192 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 10:34:14,742 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 10:34:14,742 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:02:40,160 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:02:40,160 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:02:40,344 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:04:19,286 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:04:19,286 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:04:19,432 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:04:49,427 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:04:49,427 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:04:49,495 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:08:05,112 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\ppr15
+2009-09-28 11:08:05,112 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is ppr15
+2009-09-28 11:08:05,234 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from ppr15
+2009-09-28 11:17:28,412 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\ppr15
+2009-09-28 11:17:28,412 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is ppr15
+2009-09-28 11:17:28,490 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from ppr15
+2009-09-28 11:17:31,075 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - ppr15 profile contains none with System.String[]
+2009-09-28 11:17:55,812 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\ppr15
+2009-09-28 11:17:55,812 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is ppr15
+2009-09-28 11:17:55,826 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from ppr15
+2009-09-28 11:17:56,869 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - ppr15 profile contains none with System.String[]
+2009-09-28 11:18:48,441 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:18:48,441 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:19:23,442 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:19:23,443 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:19:23,569 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:19:25,885 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - barreyo profile contains SEP000A8AA22F94 with System.String[]
+2009-09-28 11:20:29,356 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:20:29,356 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:20:29,453 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:20:34,969 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - barreyo profile contains SEP000A8AA22F94 with System.String[]
+2009-09-28 11:23:11,651 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:23:11,651 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:23:47,040 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:23:47,040 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:24:04,162 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:24:04,164 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:24:22,829 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:24:22,829 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:26:46,382 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:26:46,382 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:26:51,047 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Get profile from barreyo
+2009-09-28 11:27:30,923 [4] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - barreyo profile contains none with System.String[]
+2009-09-28 11:36:55,904 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:36:55,904 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:45:48,914 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:45:48,914 [8] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:47:39,436 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:47:39,436 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:47:59,704 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:47:59,704 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:49:53,732 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:49:53,732 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:50:03,564 [11] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Generated token: o+bvQKnze4CZOYxN1kJpFee52JWbhjaC4tBtoTKu3a8=
+2009-09-28 11:50:08,927 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Token request from user: si\barreyo
+2009-09-28 11:50:08,927 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - User is barreyo
+2009-09-28 11:50:15,149 [9] DEBUG Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider [Wybecom.TalkPortal.Providers.CiscoAuthenticationProvider] - Generated token: o+bvQKnze4CZOYxN1kJpFcuCexEmI51XrJrJHb9C+iM=

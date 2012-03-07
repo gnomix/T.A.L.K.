@@ -1,0 +1,470 @@
+﻿.webpartzone
+{
+	font-family:Verdana;
+	padding: 0;
+	text-align:center;
+	width:100%;
+	overflow:auto;
+}
+.webpartzonehidden
+{
+	font-family:Verdana;
+	padding: 0;
+	width:0px;
+	height:0px;
+	overflow:hidden;
+	text-align:center;
+}
+.webpartemptyzonetext
+{
+}
+
+.webparterror
+{
+}
+
+.webpartfooter
+{
+	text-align:center;
+}
+
+.webpartheader
+{
+	height:auto;
+	background-color:#E2DED6;
+	font-weight:bold;
+	font-size:1em;
+	color:#333333;
+}
+
+.webpartmenucheckimage
+{
+}
+
+.webpartmenulabelhover
+{
+	
+}
+
+.webpartmenulabel
+{
+}
+
+.webpartmenupopup
+{
+	border:solid 1px Black;
+	background-color:Blue;
+}
+
+.webpartmenuverbhover
+{
+	color:Gray;
+}
+
+.webpartmenuverb
+{
+	color:White;
+}
+
+.webparttitlebarverb
+{
+	
+}
+
+.webpartpartchrome
+{
+	text-align:center;
+}
+
+.webpartpartstyle
+{
+	text-align:center;
+}
+
+.webpartpartstyle div
+{
+	text-align:center;
+	overflow:auto;
+	display:block;
+	height:100%;
+	width:100%;
+}
+
+.webpartpartstyle div div span
+{
+	padding:50px 0 50px 0;
+	text-align:center !important;
+	overflow:auto;
+	display:block;
+	height:100%;
+	width:100%;
+	margin-right: auto; 
+	margin-left: auto; 
+	font-weight:bold;
+	font-size:6em;
+}
+.webpartpartstyle div div div
+{
+	padding:0px 0px 0px0px;
+	text-align:center !important;
+	overflow:auto;
+	display:block;
+	height:100%;
+	width:100%;
+	font-size:1em;
+}
+
+.webpartpartstyle div div
+{
+	overflow:auto;
+	text-align:center !important;
+	display:block;
+	height:100%;
+	width:100%;
+	margin-right: auto; 
+	margin-left: auto; 
+}
+
+.webpartparttitle
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	font-size:1.5em;
+	color:White;
+	height:50px;
+}
+
+.webpartselectedpartchrome
+{
+}
+
+/*CatalogZone*/
+.catalogzone
+{
+	background-color:#F7F6F3;
+	border: solid 1px #F7F6F3;
+	font-family:Verdana;
+	padding: 6px 6px 6px 6px;
+}
+
+.catalogzoneeditui
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.catalogzoneemptyzonetext
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.catalogzoneerror
+{
+}
+
+.catalogzonefooter
+{
+	background-color:#E2DED6;
+	text-align:right;
+}
+
+.catalogzoneheader
+{
+	background-color:#E2DED6;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.catalogzoneheaderverb
+{
+	font-weight:normal;
+	font-size:0.8em;
+	text-decoration:none;
+	color:#333333;
+}
+
+.catalogzoneinstructiontext
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.catalogzonelabel
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.catalogzonepartlink
+{
+	font-size:0.8em;
+}
+
+.catalogzoneselectedpartlink
+{
+	font-size:0.8em;
+}
+
+.catalogzoneverb
+{
+	font-size:0.8em;
+	color:#333333;
+	font-family:Verdana;
+}
+
+.catalogzonepartchrome
+{
+	border: solid 1px #E2DED6;
+}
+
+.catalogzonepart
+{
+	border: solid 5px #F7F6F3;
+}
+
+.catalogzoneparttitle
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	font-size:0.8em;
+	color:White;
+}
+
+/*EditorZone*/
+.editorzone
+{
+	background-color:#F7F6F3;
+	border: solid 1px #F7F6F3;
+	font-family:Verdana;
+	padding: 2px 2px 2px 2px;
+	float:left;
+	width:33%;
+}
+
+table.editorzone
+{
+	float:left;
+}
+
+.editorzoneeditui
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.editorzoneemptyzonetext
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.editorzoneerror
+{
+}
+
+.editorzonefooter
+{
+	background-color:#E2DED6;
+	text-align:right;
+}
+
+.editorzoneheader
+{
+	background-color:#E2DED6;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.editorzoneheaderverb
+{
+	font-weight:normal;
+	font-size:0.8em;
+	text-decoration:none;
+	color:#333333;
+}
+
+.editorzoneinstructiontext
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.editorzonelabel
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.editorzonepartlink
+{
+	font-size:0.8em;
+}
+
+.editorzoneselectedpartlink
+{
+	font-size:0.8em;
+}
+
+.editorzoneverb
+{
+	font-size:0.8em;
+	color:#333333;
+	font-family:Verdana;
+}
+
+.editorzonepartchrome
+{
+	border: solid 1px #E2DED6;
+}
+
+.editorzonepart
+{
+	border: solid 5px #F7F6F3;
+}
+
+.editorzoneparttitle
+{
+	background-color:#F7F6F3;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#333333;
+}
+
+/*ConnectionZone*/
+.connectionzone
+{
+	background-color:#F7F6F3;
+	border: solid 1px #F7F6F3;
+	font-family:Verdana;
+	padding: 6px 6px 6px 6px;
+}
+
+.connectionzoneeditui
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.connectionzoneerror
+{
+}
+
+.connectionzonefooter
+{
+	background-color:#E2DED6;
+	text-align:right;
+}
+
+.connectionzoneheader
+{
+	background-color:#E2DED6;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.connectionzoneheaderverb
+{
+	font-weight:normal;
+	font-size:0.8em;
+	text-decoration:none;
+	color:#333333;
+}
+
+.connectionzoneinstructiontext
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.connectionzonelabel
+{
+	font-size:0.8em;
+	color:#333333;
+}
+
+.connectionzoneverb
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:#333333;
+}
+
+.gridviewrow
+{
+	background-color:#F7F6F3;
+	color:#333333;
+}
+
+.gridviewfooter
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.gridviewheader
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.gridviewalternating
+{
+	background-color:#FFFFFF;
+	color:#284775;
+}
+
+.dataconsumerwebpartcssover
+{
+	background-color:#FF0000;
+}
+
+.dataconsumerwebpartcssbelow
+{
+	background-color:#00FF00;
+}
+
+.dataconsumercssover
+{
+	color:#54F823;
+}
+
+.dataconsumercssbelow
+{
+	color:#000000;
+}
+
+.dataconsumergridviewrow
+{
+	background-color:#F7F6F3;
+	color:#333333;
+}
+
+.dataconsumergridviewfooter
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.dataconsumergridviewheader
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.dataconsumergridviewalternating
+{
+	background-color:#FFFFFF;
+	color:#284775;
+}
+	

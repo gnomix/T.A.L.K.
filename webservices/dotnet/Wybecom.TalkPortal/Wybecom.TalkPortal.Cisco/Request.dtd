@@ -1,0 +1,13 @@
+﻿<!-- login requests DTD -->
+<!ELEMENT request (appInfo, (login | logout))>
+<!ELEMENT appInfo (appID, appCertificate)>
+<!ELEMENT appID (#PCDATA)>
+<!ELEMENT appCertificate (#PCDATA)>
+<!ELEMENT login (deviceName, userID, deviceProfile?, exclusiveDuration?)>
+<!ELEMENT logout (deviceName)>
+<!ELEMENT deviceName (#PCDATA)>
+<!ELEMENT userID (#PCDATA)>
+<!ELEMENT deviceProfile (#PCDATA)>
+<!ELEMENT exclusiveDuration (time | indefinite)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT indefinite EMPTY>

@@ -1,0 +1,14 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\bin\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\bin\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.CallLogsControl.resources
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.csproj.GenerateResource.Cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\bin\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\bin\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.CallLogsControl.resources
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.csproj.GenerateResource.Cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.CallLogs.Controls\obj\Release\Wybecom.TalkPortal.CTI.CallLogs.Controls.pdb

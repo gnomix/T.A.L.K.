@@ -1,0 +1,7 @@
+﻿<!-- login response DTD -->
+<!ELEMENT response (success | failure)>
+<!ELEMENT success EMPTY>
+<!ELEMENT failure (error)>
+<!ELEMENT error (#PCDATA)>
+<!ATTLIST error
+code NMTOKEN #REQUIRED>

@@ -1,0 +1,25 @@
+<publishData>
+  <publishTarget publishUrl="C:\Talk\CTI\">
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="05/21/2007 17:06:42" />
+    <file relUrl="bin/Wybecom.TalkPortal.Providers.pdb" publishTime="07/27/2009 09:49:47" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.pdb" publishTime="07/27/2009 09:49:48" />
+    <file relUrl="Web.config" publishTime="07/21/2009 16:19:37" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.pdb" publishTime="07/21/2009 15:37:55" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="07/21/2009 15:37:56" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.xml" publishTime="07/21/2009 15:37:55" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Caching.xml" publishTime="07/21/2009 15:37:57" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Proxy.dll" publishTime="07/27/2009 09:49:46" />
+    <file relUrl="Global.asax" publishTime="06/17/2009 15:34:22" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll" publishTime="07/21/2009 15:37:57" />
+    <file relUrl="LineControlServer.asmx" publishTime="06/30/2009 14:43:27" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Messages.dll" publishTime="07/27/2009 09:49:47" />
+    <file relUrl="CallLogsServer.asmx" publishTime="06/30/2009 10:27:44" />
+    <file relUrl="ACDDataCollector.asmx" publishTime="06/24/2009 18:06:21" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Proxy.pdb" publishTime="07/27/2009 09:49:46" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Caching.pdb" publishTime="07/21/2009 15:37:57" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.dll" publishTime="07/27/2009 09:49:48" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Messages.pdb" publishTime="07/27/2009 09:49:47" />
+    <file relUrl="StateServer.asmx" publishTime="06/18/2009 08:05:47" />
+    <file relUrl="bin/Wybecom.TalkPortal.Providers.dll" publishTime="07/27/2009 09:49:47" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DatasourceConfiguration"
+    targetNamespace="http://wybecom.org/DatasourceConfiguration.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://wybecom.org/DatasourceConfiguration.xsd"
+    xmlns:mstns="http://wybecom.org/DatasourceConfiguration.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="directory" type="DirectoryType"/>
+	<xs:complexType name="DirectoryType">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element name="sql" type="SqlDatasourceType" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="ldap" type="LdapDatasourceType" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="cisco" type="CiscoDatasourceType" minOccurs="1" maxOccurs="1"/>
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType  name ="CiscoDatasourceType">
+		<xs:sequence>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="server" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="axluser" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="axluserpwd" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="fieldFormatters" type="ArrayOfFieldFormatter"/>
+			<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="ipphonefilter" type="CiscoIPPhoneFilterType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SqlDatasourceType">
+		<xs:sequence>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="dsn" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="uid" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="pwd" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="command" type="xs:string"/>
+			<xs:element nillable="true" minOccurs="1" maxOccurs="1" name="sqlFilter" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="fieldFormatters" type="ArrayOfFieldFormatter"/>
+			<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="ipphonefilter" type="CiscoIPPhoneFilterType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LdapDatasourceType">
+		<xs:sequence>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="server" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="authenticationType" type="xs:string" default="Anonymous" />
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="user" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="userPassword" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="targetOU" type="xs:string"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="ldapAttributes" type="ArrayOfldapAttribute"/>
+			<xs:element nillable="true" minOccurs="1" maxOccurs="1" name="ldapFilter" type="xs:string" default="(objectClass=*)"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="pageSize" type="xs:int"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="nbPages" type="xs:int"/>
+			<xs:element nillable="false" minOccurs="1" maxOccurs="1" name="fieldFormatters" type="ArrayOfFieldFormatter"/>
+			<xs:element nillable="true" minOccurs="0" maxOccurs="1" name="ipphonefilter" type="CiscoIPPhoneFilterType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfldapAttribute">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="ldapAttribute" nillable="false" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfFieldFormatter">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="fieldFormatter" nillable="true" type="FieldFormatter" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="FieldFormatter">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="fieldName" type="xs:string" />
+			<xs:element minOccurs="0" maxOccurs="1" name="value" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="fieldType" type="FieldType" default="Other"/>
+	</xs:complexType>
+	<xs:simpleType name="FieldType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Identity"/>
+			<xs:enumeration value="Mail"/>
+			<xs:enumeration value="Telephone"/>
+			<xs:enumeration value="GSM"/>
+			<xs:enumeration value="Other"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="CiscoIPPhoneFilterType">
+		<xs:attribute name="firstnamemap" type="xs:string"/>
+		<xs:attribute name="lastnamemap" type="xs:string"/>
+		<xs:attribute name="telephonenumbermap" type="xs:string"/>
+	</xs:complexType>
+</xs:schema>

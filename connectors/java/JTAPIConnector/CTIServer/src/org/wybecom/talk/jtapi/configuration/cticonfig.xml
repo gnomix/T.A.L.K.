@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : cticonfig.xml
+    Created on : 25 juin 2009, 16:01
+    Author     : barreyo
+    Description:
+        Purpose of the document follows.
+-->
+
+<ns0:configuration  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns:ns0='http://xml.netbeans.org/schema/cticonfig'
+   xsi:schemaLocation='http://xml.netbeans.org/schema/cticonfig cticonfig.xsd'>
+        <ns0:provider>
+                <ns0:ctiprovider></ns0:ctiprovider>
+                <ns0:ctiuser></ns0:ctiuser>
+                <ns0:ctiuserpassword></ns0:ctiuserpassword>
+                <ns0:backupctiprovider></ns0:backupctiprovider>
+            </ns0:provider>
+        <ns0:provider>
+                <ns0:ctiprovider></ns0:ctiprovider>
+                <ns0:ctiuser></ns0:ctiuser>
+                <ns0:ctiuserpassword></ns0:ctiuserpassword>
+                <ns0:backupctiprovider></ns0:backupctiprovider>
+            </ns0:provider>
+        <ns0:provider>
+                <ns0:ctiprovider></ns0:ctiprovider>
+                <ns0:ctiuser></ns0:ctiuser>
+                <ns0:ctiuserpassword></ns0:ctiuserpassword>
+                <ns0:backupctiprovider></ns0:backupctiprovider>
+            </ns0:provider>
+
+</ns0:configuration>

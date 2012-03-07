@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid XML Studio Developer Edition (Trial) 8.0.9.2074 (http://www.liquid-technologies.com)-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- login response DTD -->
+  <xs:element name="response" type="responseType" />
+  <xs:complexType name="responseType">
+    <xs:choice>
+      <xs:element name="success" type="successType" />
+      <xs:element name="failure" type="failureType" />
+    </xs:choice>
+  </xs:complexType>
+  <xs:element name="success" type="successType" />
+  <xs:complexType name="successType" />
+  <xs:element name="failure" type="failureType" />
+  <xs:complexType name="failureType">
+    <xs:sequence>
+      <xs:element name="error" type="errorType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="error" type="errorType" />
+  <xs:complexType name="errorType" mixed="true">
+    <xs:attribute name="code" type="xs:NMTOKEN" use="required" />
+  </xs:complexType>
+</xs:schema>

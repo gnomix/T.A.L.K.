@@ -1,0 +1,143 @@
+﻿body
+{
+}
+
+.dmdclient
+{
+	
+}
+
+.dmdclient div div
+{
+	color:#000000;
+	text-align:center;
+	padding:2px 2px 2px 2px;
+}
+
+.dmdclient div div table tr td
+{
+	width: 50%;
+	padding: 5px;
+}
+
+.dmdclient div div span
+{
+	font-weight:bold;
+}
+
+.dmdclient .filterControl
+{
+	display:table;
+	border-collapse:collapse;
+	margin:auto;
+	padding:0; 
+	background:none;
+}
+
+.dmdclient .filterControl p
+{
+	margin:0;
+}
+.dmdclient .filterControl p span
+{
+	display:table-cell;	
+	width:150px;
+	height:50px;
+	vertical-align:middle;
+	text-align:left;
+}
+
+
+
+.dmdclient .displayedPage
+{
+	display:block;
+	background-color:#F7F6F3;
+	color:#333333;
+}
+
+.dmdclient .displayedPage_alternating
+{
+	display:block;
+	background-color:#FFFFFF;
+	color:#284775;
+}
+
+.hiddenPage
+{
+	display:none;
+}
+
+.dmdclient .rowHeader
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.dmdclient .rowHeader a
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.dmdclient .rowFooter a
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.dmdclient .rowHeader  th
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.dmdclient .rowFooter  td
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.dmdclient .rowFooter
+{
+	background-color:#5D7B9D;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.completionListElement
+{
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+.completionListItem
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+.completionHighlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://wybecom.org/" xmlns:s1="http://wybecom.org/DatasourceConfiguration.xsd" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://wybecom.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://wybecom.org/">
+      <s:import namespace="http://wybecom.org/DatasourceConfiguration.xsd" />
+      <s:element name="GetMetaData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMetaDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMetaDataResult" type="tns:ArrayOfFieldType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFieldType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FieldType" type="s1:FieldType" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Search">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SortSearch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directoryName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sort" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SortSearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SortSearchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Lookup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dirNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MultiLookup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lookup" type="tns:ArrayOfLookupResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfLookupResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LookupResponse" nillable="true" type="tns:LookupResponse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LookupResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="dirNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="callids" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MultiLookupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MultiLookupResult" type="tns:ArrayOfLookupResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteFilter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="contextKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteFilterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutoCompleteFilterResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDirectoriesForCiscoIPPhone">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDirectoriesForCiscoIPPhoneResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SearchForCiscoIPPhone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directory" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchForCiscoIPPhoneResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetResultsForCiscoIPPhone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="givenName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="telephonenumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pos" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResultsForCiscoIPPhoneResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Error">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="error" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ErrorResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://wybecom.org/DatasourceConfiguration.xsd">
+      <s:simpleType name="FieldType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Identity" />
+          <s:enumeration value="Mail" />
+          <s:enumeration value="Telephone" />
+          <s:enumeration value="GSM" />
+          <s:enumeration value="Other" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMetaDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMetaData" />
+  </wsdl:message>
+  <wsdl:message name="GetMetaDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMetaDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapIn">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SortSearchSoapIn">
+    <wsdl:part name="parameters" element="tns:SortSearch" />
+  </wsdl:message>
+  <wsdl:message name="SortSearchSoapOut">
+    <wsdl:part name="parameters" element="tns:SortSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="LookupSoapIn">
+    <wsdl:part name="parameters" element="tns:Lookup" />
+  </wsdl:message>
+  <wsdl:message name="LookupSoapOut">
+    <wsdl:part name="parameters" element="tns:LookupResponse" />
+  </wsdl:message>
+  <wsdl:message name="MultiLookupSoapIn">
+    <wsdl:part name="parameters" element="tns:MultiLookup" />
+  </wsdl:message>
+  <wsdl:message name="MultiLookupSoapOut">
+    <wsdl:part name="parameters" element="tns:MultiLookupResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteFilterSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoCompleteFilter" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteFilterSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoCompleteFilterResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDirectoriesForCiscoIPPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDirectoriesForCiscoIPPhone" />
+  </wsdl:message>
+  <wsdl:message name="GetDirectoriesForCiscoIPPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDirectoriesForCiscoIPPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchForCiscoIPPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:SearchForCiscoIPPhone" />
+  </wsdl:message>
+  <wsdl:message name="SearchForCiscoIPPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchForCiscoIPPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResultsForCiscoIPPhoneSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResultsForCiscoIPPhone" />
+  </wsdl:message>
+  <wsdl:message name="GetResultsForCiscoIPPhoneSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResultsForCiscoIPPhoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="ErrorSoapIn">
+    <wsdl:part name="parameters" element="tns:Error" />
+  </wsdl:message>
+  <wsdl:message name="ErrorSoapOut">
+    <wsdl:part name="parameters" element="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DMDWebServiceSoap">
+    <wsdl:operation name="GetMetaData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get meta data from directory</wsdl:documentation>
+      <wsdl:input message="tns:GetMetaDataSoapIn" />
+      <wsdl:output message="tns:GetMetaDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get a dataset from a directory</wsdl:documentation>
+      <wsdl:input message="tns:SearchSoapIn" />
+      <wsdl:output message="tns:SearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SortSearch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get a dataset from a directory</wsdl:documentation>
+      <wsdl:input message="tns:SortSearchSoapIn" />
+      <wsdl:output message="tns:SortSearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Lookup">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lookup directory number in all directory</wsdl:documentation>
+      <wsdl:input message="tns:LookupSoapIn" />
+      <wsdl:output message="tns:LookupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MultiLookup">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lookup for several directory number in all directory</wsdl:documentation>
+      <wsdl:input message="tns:MultiLookupSoapIn" />
+      <wsdl:output message="tns:MultiLookupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteFilter">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Autocomplete filter text box method</wsdl:documentation>
+      <wsdl:input message="tns:AutoCompleteFilterSoapIn" />
+      <wsdl:output message="tns:AutoCompleteFilterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectoriesForCiscoIPPhone">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get list of directories for CiscoIPPhone</wsdl:documentation>
+      <wsdl:input message="tns:GetDirectoriesForCiscoIPPhoneSoapIn" />
+      <wsdl:output message="tns:GetDirectoriesForCiscoIPPhoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchForCiscoIPPhone">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get search form from a particular directory for CiscoIPPhone</wsdl:documentation>
+      <wsdl:input message="tns:SearchForCiscoIPPhoneSoapIn" />
+      <wsdl:output message="tns:SearchForCiscoIPPhoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResultsForCiscoIPPhone">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get results form from a particular directory for CiscoIPPhone</wsdl:documentation>
+      <wsdl:input message="tns:GetResultsForCiscoIPPhoneSoapIn" />
+      <wsdl:output message="tns:GetResultsForCiscoIPPhoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Error">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get error form for CiscoIPPhone</wsdl:documentation>
+      <wsdl:input message="tns:ErrorSoapIn" />
+      <wsdl:output message="tns:ErrorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DMDWebServiceSoap" type="tns:DMDWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMetaData">
+      <soap:operation soapAction="http://wybecom.org/GetMetaData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://wybecom.org/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortSearch">
+      <soap:operation soapAction="http://wybecom.org/SortSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Lookup">
+      <soap:operation soapAction="http://wybecom.org/Lookup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MultiLookup">
+      <soap:operation soapAction="http://wybecom.org/MultiLookup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteFilter">
+      <soap:operation soapAction="http://wybecom.org/AutoCompleteFilter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectoriesForCiscoIPPhone">
+      <soap:operation soapAction="http://wybecom.org/GetDirectoriesForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchForCiscoIPPhone">
+      <soap:operation soapAction="http://wybecom.org/SearchForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultsForCiscoIPPhone">
+      <soap:operation soapAction="http://wybecom.org/GetResultsForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Error">
+      <soap:operation soapAction="http://wybecom.org/Error" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DMDWebServiceSoap12" type="tns:DMDWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMetaData">
+      <soap12:operation soapAction="http://wybecom.org/GetMetaData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap12:operation soapAction="http://wybecom.org/Search" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SortSearch">
+      <soap12:operation soapAction="http://wybecom.org/SortSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Lookup">
+      <soap12:operation soapAction="http://wybecom.org/Lookup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MultiLookup">
+      <soap12:operation soapAction="http://wybecom.org/MultiLookup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteFilter">
+      <soap12:operation soapAction="http://wybecom.org/AutoCompleteFilter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectoriesForCiscoIPPhone">
+      <soap12:operation soapAction="http://wybecom.org/GetDirectoriesForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchForCiscoIPPhone">
+      <soap12:operation soapAction="http://wybecom.org/SearchForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultsForCiscoIPPhone">
+      <soap12:operation soapAction="http://wybecom.org/GetResultsForCiscoIPPhone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Error">
+      <soap12:operation soapAction="http://wybecom.org/Error" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DMDWebService">
+    <wsdl:port name="DMDWebServiceSoap" binding="tns:DMDWebServiceSoap">
+      <soap:address location="http://localhost/Talk/DMDWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DMDWebServiceSoap12" binding="tns:DMDWebServiceSoap12">
+      <soap12:address location="http://localhost/Talk/DMDWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

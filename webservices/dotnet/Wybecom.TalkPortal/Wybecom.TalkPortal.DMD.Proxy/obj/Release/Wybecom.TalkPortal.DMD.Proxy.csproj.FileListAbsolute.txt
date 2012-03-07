@@ -1,0 +1,5 @@
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Proxy\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Proxy\bin\Release\Wybecom.TalkPortal.DMD.Proxy.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Proxy\bin\Release\Wybecom.TalkPortal.DMD.Proxy.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Proxy\obj\Release\Wybecom.TalkPortal.DMD.Proxy.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Proxy\obj\Release\Wybecom.TalkPortal.DMD.Proxy.pdb

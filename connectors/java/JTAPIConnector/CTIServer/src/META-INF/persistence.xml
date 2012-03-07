@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="TalkDBPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.wybecom.talk.team.db.ACDManagerAddressGroup</class>
+    <class>org.wybecom.talk.team.db.Team</class>
+    <class>org.wybecom.talk.team.db.ACDManagerAddress</class>
+    <class>org.wybecom.talk.team.db.TeamMember</class>
+    <properties>
+      <property name="eclipselink.jdbc.password" value="Bibilove1"/>
+      <property name="eclipselink.jdbc.user" value="talk"/>
+      <property name="eclipselink.jdbc.url" value="jdbc:sqlserver://localhost\SQLEXPRESS;databaseName=TalkDB"/>
+      <property name="eclipselink.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,14 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.XmlSerializers.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.XmlSerializers.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.XmlSerializers.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\bin\Release\Wybecom.TalkPortal.CTI.Proxy.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.CTI.Proxy\obj\Release\Wybecom.TalkPortal.CTI.Proxy.XmlSerializers.dll

@@ -1,0 +1,457 @@
+2011-02-07 10:21:19,119 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-02-07 10:21:19,191 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-02-07 10:21:19,226 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:21:40,555 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:21:40,724 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-02-07 10:21:40,990 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_894033b3_1536_4d3c_9152_b63fbf8df598, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-02-07 10:21:42,347 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: hsovajyo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-02-07 10:21:42,406 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Services.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b03f5f7f11d50a3a
+2011-02-07 10:21:42,707 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: nrea-apn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-02-07 10:21:43,007 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: _4iovbhx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-02-07 10:21:43,327 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_defaultwsdlhelpgenerator.aspx.cdcab7d2.vodu9e5f, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-02-07 10:23:00,066 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:23:00,068 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:23:00,068 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:23:00,068 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:23:21,061 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:24:40,124 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:24:40,124 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:24:40,124 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:24:40,124 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:25:01,126 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:26:20,184 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:26:20,184 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:26:20,184 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:26:20,184 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:26:41,186 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:28:00,257 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:28:21,261 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:29:40,317 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:30:01,319 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:31:20,376 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:31:41,379 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:33:00,435 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-02-07 10:33:21,437 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-02-07 10:34:40,494 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-02-07 10:34:40,494 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-02-07 10:34:40,494 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-02-07 10:34:40,494 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:05:35,012 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-13 21:05:35,356 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-13 21:05:35,365 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:05:56,792 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:05:56,846 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:05:57,095 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_a7ff1e5e_f7e1_4dea_9671_85927f585c16, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:05:58,677 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.pp5qhrsh, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:05:59,478 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.hn_t-chm, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:06:00,138 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:06:00,218 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:06:00,572 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:06:01,390 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:06:01,522 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:06:01,967 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:06:02,292 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-13 21:06:55,143 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_8a486865_0c5d_4591_bf3d_60cb5eca0309, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:06:56,705 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2._arf3wio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:06:57,673 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.yvfw7b0q, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:07:00,052 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:07:00,052 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:08:11,822 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.sw7klmfp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:37:49,962 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-13 21:37:50,011 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-13 21:37:50,015 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:38:11,197 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:38:11,211 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:38:11,276 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_310890ee_93f5_4ecc_9893_448b8b0cb2bf, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:38:12,539 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.ofwh_t-q, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:38:13,143 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.iyzqx9r5, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:38:13,777 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.a3xog88h, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:38:13,929 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:38:13,969 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:38:14,366 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:38:14,380 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:38:14,507 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:38:14,894 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-13 21:39:20,064 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:39:20,066 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:39:20,066 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:39:20,066 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:39:41,069 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:39:48,824 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-13 21:39:48,825 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-13 21:39:48,825 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:39:48,825 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:40:09,877 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:40:20,996 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:40:21,009 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:40:21,073 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_41afc532_cd54_4673_8568_5ff0dd345859, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:40:22,293 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.anqyqexm, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:40:22,918 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.j7l1gkze, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:40:23,817 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.cjipdnzd, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:40:23,961 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:40:23,998 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:40:24,223 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:40:24,230 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:40:24,312 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:40:24,481 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-13 21:41:40,075 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:41:40,077 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:41:40,077 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:41:40,077 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:42:01,085 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:43:20,134 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:43:41,137 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:45:00,193 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:45:21,195 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:46:40,251 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:47:01,255 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:47:24,840 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-13 21:47:24,841 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-13 21:47:24,841 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:47:24,841 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:47:45,843 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:48:05,909 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-13 21:48:05,957 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-13 21:48:05,961 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-13 21:48:27,113 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-13 21:48:27,123 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:48:27,166 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_1beb71a9_e385_4aa3_a2c1_a4cc5eabe58c, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:48:28,340 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.9nf1bghr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:48:58,136 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_0b3cc6ca_0760_4103_ac75_8981ffb0e0eb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:48:59,722 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.slicb5vt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:49:00,368 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.tpvwrwtp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:49:00,526 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:49:00,570 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:49:01,019 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:49:01,029 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-13 21:49:01,115 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-13 21:49:04,185 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-13 21:49:31,512 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-13 21:49:31,515 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-13 21:49:31,515 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-13 21:49:31,515 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:39:48,336 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-14 07:39:48,549 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-14 07:39:48,557 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:40:09,938 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:40:10,018 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:40:10,205 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_4716b699_4640_42b8_aec1_e3599daaf9ec, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:40:11,541 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.4nt74xye, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:40:52,167 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:41:13,183 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:41:25,921 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:41:25,929 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:25,961 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_38444f2a_300e_4831_a817_a28fc2f6d03f, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:41:26,970 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.gndykz3p, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:41:27,575 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.7nkns_bv, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:41:28,684 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.k7zyty6i, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:41:29,262 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:29,309 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:29,756 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:33,582 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:33,739 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:41:34,184 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:41:34,611 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 07:42:40,051 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:42:40,053 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:42:40,053 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:42:40,053 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:43:01,125 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:44:20,124 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:44:20,124 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:44:20,124 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:44:20,124 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:44:41,127 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:45:27,215 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 07:45:27,216 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 07:45:27,216 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:45:27,216 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:45:48,219 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:47:33,865 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-14 07:47:33,912 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-14 07:47:33,916 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:47:55,036 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:47:55,044 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:47:55,076 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_41b2e7a3_c989_4e6f_82ef_a6aab48218c5, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:47:56,182 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.jafh616j, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:47:56,219 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_bcf6c6d4_ec80_434e_8a41_6b2a84811e46, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:47:56,944 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.nb2bvtmv, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:47:57,550 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.8vvdpimb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:48:03,015 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:48:03,047 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:48:03,274 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:48:03,281 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:48:03,356 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:48:03,383 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.yztaf-j2.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 07:48:03,455 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 07:49:00,053 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:49:00,054 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:49:00,054 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:49:00,055 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:49:21,058 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:50:40,111 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:51:01,115 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:51:53,549 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 07:51:53,551 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 07:51:53,551 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:51:53,551 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:52:14,566 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:52:24,686 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:52:24,693 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:52:24,725 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_43b488b1_a122_4a57_923b_82f779bec893, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:25,808 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.17clhkcg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:25,833 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_25353ca2_0bce_4e40_ad12_ee4a77203a91, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:26,383 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.nfa_ggzi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:27,110 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.aqdarofk, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:27,280 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:52:27,309 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:52:27,524 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:52:27,532 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:52:27,608 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:52:27,636 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.1bgmjuta.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 07:52:27,712 [17] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 07:53:40,060 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:53:40,060 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:55:19,255 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-14 07:55:19,302 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-14 07:55:19,305 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:55:40,413 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:55:40,420 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:55:40,454 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_78e48ded_0e24_42b1_be47_4b48ffa088d6, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:41,504 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.zmscmqn2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:41,569 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_398a0418_db67_439d_9c3e_035610486574, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:42,195 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.hdvq0vaq, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:42,852 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.ozq8vo0b, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:43,044 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:55:43,077 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:55:43,287 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:55:43,294 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:55:43,370 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:55:43,399 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.dznafvvm.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 07:55:43,476 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 07:57:00,067 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:57:00,069 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:57:00,069 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:57:00,069 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:57:12,513 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-14 07:57:12,560 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-14 07:57:12,565 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:57:33,702 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 07:57:33,709 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:57:33,748 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_700fe727_0951_412e_b815_fd57df7708e3, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:34,783 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.rcdwyg_b, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:34,825 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_6ff1a13f_8334_4eab_bc7a_e8e037273ebb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:35,355 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.nhw4d4zg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:35,868 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.oeoug4a2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:36,023 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:57:36,063 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:57:36,264 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:57:36,271 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 07:57:36,345 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 07:57:36,374 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.wqdymp0o.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 07:57:36,450 [13] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 07:58:40,049 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 07:58:40,050 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 07:58:40,051 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 07:58:40,051 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 07:59:01,053 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:00:20,107 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:00:20,107 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:00:20,107 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:00:20,107 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:00:41,110 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:01:04,550 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:01:04,552 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:01:04,552 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:01:04,552 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:01:25,567 [16] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:01:36,433 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:01:36,441 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:01:36,474 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_f3fd3d7e_557c_41cb_9573_6a3dae3f7c55, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:37,538 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.s2ka_abx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:37,584 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_b4d8611d_93cb_4484_bc6e_4c88b1baf1e3, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:38,153 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.nftz941w, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:38,736 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.gk5due8_, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:38,906 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:01:38,937 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:01:39,156 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:01:39,164 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:01:39,241 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:01:39,271 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.ct2i9ocx.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 08:01:39,344 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 08:02:40,072 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:02:40,074 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:02:40,074 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:02:40,074 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:03:01,088 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:04:20,146 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:04:20,147 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:04:20,147 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:04:20,147 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:04:41,151 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:05:21,642 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:05:21,643 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:05:21,643 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:05:21,643 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:05:42,672 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:05:53,653 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:05:53,661 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:05:53,693 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_d286ada6_1de1_4e60_8102_73bb97f6d0fc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:54,719 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.sbhodxmd, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:54,798 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_fe0cb3d8_6dc9_4d73_b027_cc639d7a67cb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:55,333 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.8uwc-gbh, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:55,916 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.utzsllu0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:56,092 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:05:56,123 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:05:56,334 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:05:56,342 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:05:56,415 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:05:56,561 [12] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 08:06:05,824 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.jnq5mte0.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 08:07:00,048 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:07:00,050 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:07:00,050 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:07:00,050 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:07:21,061 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:08:40,105 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:08:46,864 [15] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.mkng4nsn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:09:01,120 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:10:20,164 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:10:20,164 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:10:20,164 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:10:20,164 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:10:41,166 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:11:37,826 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:11:37,827 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:11:37,827 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:11:37,827 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:11:58,849 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:12:09,579 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:12:09,587 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:12:09,624 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_5c03c30e_7930_4f8f_b2d3_9e0f9660566b, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:10,749 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.k92nnkqv, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:10,835 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_516d0284_b4f1_4ffc_85b8_9f517d6213d8, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:11,436 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.irhzo_lb, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:12,177 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.3bm6yvcn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:12,354 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:12:12,395 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:12:12,591 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:12:12,599 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:12:12,675 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:12:12,829 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 08:13:20,034 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:13:20,035 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:13:20,036 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:13:20,036 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:13:20,036 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:13:20,036 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:13:41,044 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:14:02,182 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:14:02,182 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:14:02,182 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:14:02,182 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:14:08,593 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:14:08,594 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:14:08,594 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:14:08,594 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:14:29,700 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:14:40,052 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:14:40,065 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:14:40,096 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_0adba1b2_a66c_479f_9f67_a249cc5b5c7f, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:41,068 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.ve5m5skz, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:41,093 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_6776291c_8e74_4ffb_85e4_a065af21cc32, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:41,611 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.o86pxjyt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:42,187 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.s66bidrs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:42,361 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:14:42,402 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:14:42,577 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:14:42,583 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:14:42,655 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:14:42,742 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.9kb8fd3k.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 08:14:42,811 [14] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 08:15:39,519 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.jsnkfrqe, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:15:40,076 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:15:40,077 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:15:40,077 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:15:40,077 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:16:01,096 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:16:30,846 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_hzvnrqza, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:16:47,575 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.t6txt-cn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:17:11,103 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.upyz2tw1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:17:20,150 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:17:20,150 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:17:20,150 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:17:20,150 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:17:34,219 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.pkyizjv2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:17:41,156 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:18:10,127 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.ylqsogox, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:18:27,255 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.yauqnwtt, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:18:51,732 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_pzwtwfso, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:18:52,892 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.aagfbfqk, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:19:00,210 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:19:19,656 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.750mdw2d, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:19:21,216 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:19:43,343 [11] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.hksslezp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:20:37,300 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.u91z9yso, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:20:40,268 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired
+2011-04-14 08:20:40,268 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:20:40,268 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:20:40,268 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:21:01,268 [9] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:21:15,886 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Removed
+2011-04-14 08:21:15,888 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Removed
+2011-04-14 08:21:15,888 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Reinit directory cache...
+2011-04-14 08:21:15,888 [10] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:21:33,850 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Opening DMD config file...
+2011-04-14 08:21:33,898 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DMD config file loaded
+2011-04-14 08:21:33,903 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - DirectoryType: DirectoryType
+2011-04-14 08:21:55,026 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Result dataset contains 1 table: Table1
+2011-04-14 08:21:55,045 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: SMDiagnostics, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:55,080 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_1b8de18d_0e7c_42a7_ba09_56ffc54dca0a, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:56,173 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_talk_pro.master.cdcab7d2.dun0mtbl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:56,272 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: A_9229de2b_0c45_4778_a392_131629356178, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:56,765 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Web_codifmgt.aspx.cdcab7d2.cqdl-eh4, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:57,324 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_Theme_Wybecom.qhyjgwrk, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:57,528 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.XML.resources, Version=2.0.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:57,580 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:57,718 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:57,925 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Data.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:57,948 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2011-04-14 08:21:58,029 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Entity.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=b77a5c561934e089
+2011-04-14 08:21:58,122 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: App_GlobalResources.on_ntljr.resources, Version=0.0.0.0, Culture=fr-FR, PublicKeyToken=null
+2011-04-14 08:21:58,197 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Loading assembly: System.Web.Extensions.resources, Version=3.5.0.0, Culture=fr, PublicKeyToken=31bf3856ad364e35
+2011-04-14 08:23:00,047 [4] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate reason: Expired
+2011-04-14 08:23:00,047 [8] DEBUG Wybecom.TalkPortal.Global [Wybecom.TalkPortal.Global] - Cache deleted: Corporate_formated reason: Expired

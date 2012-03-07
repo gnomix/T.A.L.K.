@@ -1,0 +1,9 @@
+﻿<!-- login query DTD -->
+<!ELEMENT query (appInfo, (deviceUserQuery | userDevicesQuery))>
+<!ELEMENT appInfo (appID, appCertificate)>
+<!ELEMENT appID (#PCDATA)>
+<!ELEMENT appCertificate (#PCDATA)>
+<!ELEMENT deviceUserQuery (deviceName+)>
+<!ELEMENT userDevicesQuery (userID+)>
+<!ELEMENT deviceName (#PCDATA)>
+<!ELEMENT userID (#PCDATA)>

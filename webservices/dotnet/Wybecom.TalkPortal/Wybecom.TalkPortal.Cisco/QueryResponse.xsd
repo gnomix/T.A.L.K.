@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with Liquid XML Studio Developer Edition (Trial) 8.0.9.2074 (http://www.liquid-technologies.com)-->
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- login query results DTD -->
+  <xs:element name="response" type="responseType" />
+  <xs:complexType name="responseType">
+    <xs:choice>
+      <xs:element name="deviceUserResults" type="deviceUserResultsType" />
+      <xs:element name="userDevicesResults" type="userDevicesResultsType" />
+      <xs:element name="failure" type="failureType" />
+    </xs:choice>
+  </xs:complexType>
+  <xs:element name="deviceUserResults" type="deviceUserResultsType" />
+  <xs:complexType name="deviceUserResultsType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="device" type="deviceType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="userDevicesResults" type="userDevicesResultsType" />
+  <xs:complexType name="userDevicesResultsType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="user" type="userType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="device" type="deviceType" />
+  <xs:complexType name="deviceType">
+    <xs:choice>
+      <xs:element name="userID" type="userIDType" />
+      <xs:element name="lastlogin" type="lastloginType" />
+      <xs:element name="none" type="noneType" />
+      <xs:element name="doesNotExist" type="doesNotExistType" />
+    </xs:choice>
+    <xs:attribute name="name" type="xs:NMTOKEN" use="required" />
+  </xs:complexType>
+  <xs:element name="user" type="userType" />
+  <xs:complexType name="userType">
+    <xs:choice>
+      <xs:element maxOccurs="unbounded" name="deviceName" type="deviceNameType" />
+      <xs:element name="none" type="noneType" />
+      <xs:element name="doesNotExist" type="doesNotExistType" />
+    </xs:choice>
+    <xs:attribute name="id" type="xs:NMTOKEN" use="required" />
+  </xs:complexType>
+  <xs:element name="userID" type="userIDType" />
+  <xs:complexType name="userIDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="lastlogin" type="lastloginType" />
+  <xs:complexType name="lastloginType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="deviceName" type="deviceNameType" />
+  <xs:complexType name="deviceNameType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="none" type="noneType" />
+  <xs:complexType name="noneType" />
+  <xs:element name="doesNotExist" type="doesNotExistType" />
+  <xs:complexType name="doesNotExistType" />
+  <xs:element name="failure" type="failureType" />
+  <xs:complexType name="failureType">
+    <xs:sequence>
+      <xs:element name="errorMessage" type="errorMessageType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="errorMessage" type="errorMessageType" />
+  <xs:complexType name="errorMessageType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

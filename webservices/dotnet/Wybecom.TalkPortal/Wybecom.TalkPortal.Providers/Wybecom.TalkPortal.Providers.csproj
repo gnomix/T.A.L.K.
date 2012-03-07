@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B685CF29-39AA-4BF7-BC68-76B768BA109A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wybecom.TalkPortal.Providers</RootNamespace>
+    <AssemblyName>Wybecom.TalkPortal.Providers</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Wybecom.TalkPortal.Providers.pfx</AssemblyOriginatorKeyFile>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2005\Projects\Log4Net\log4net-1.2.10\bin\net\2.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACDProvider.cs" />
+    <Compile Include="ACDService.cs" />
+    <Compile Include="ACDServiceSection.cs" />
+    <Compile Include="AsteriskAuthenticationProvider.cs" />
+    <Compile Include="AsteriskCTIProvider.cs" />
+    <Compile Include="AuthenticationExpiredException.cs" />
+    <Compile Include="AuthenticationFailedException.cs" />
+    <Compile Include="AuthenticationMismatchException.cs" />
+    <Compile Include="AuthenticationProvider.cs" />
+    <Compile Include="AuthenticationService.cs" />
+    <Compile Include="AuthenticationServiceSection.cs" />
+    <Compile Include="CallLogsProvider.cs" />
+    <Compile Include="CallLogsService.cs" />
+    <Compile Include="CallLogsServiceSection.cs" />
+    <Compile Include="CiscoAuthenticationProvider.cs" />
+    <Compile Include="CiscoExtensionMobilityProvider.cs" />
+    <Compile Include="CiscoMembershipProvider.cs" />
+    <Compile Include="CiscoPrivacyProvider.cs" />
+    <Compile Include="CiscoRoleProvider.cs" />
+    <Compile Include="CiscoSpeedDialProvider.cs" />
+    <Compile Include="CodificationProvider.cs" />
+    <Compile Include="CodificationService.cs" />
+    <Compile Include="CodificationServiceSection.cs" />
+    <Compile Include="CodifModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CodifModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="CTIProvider.cs" />
+    <Compile Include="CTIService.cs" />
+    <Compile Include="CTIServiceSection.cs" />
+    <Compile Include="DirectoryNumberAnalysorProvider.cs" />
+    <Compile Include="DirectoryNumberAnalysorServiceSection.cs" />
+    <Compile Include="DirectoryNumberAnalysorService.cs" />
+    <Compile Include="ExtensionMobilityProvider.cs" />
+    <Compile Include="ExtensionMobilityService.cs" />
+    <Compile Include="ExtensionMobilityServiceSection.cs" />
+    <Compile Include="LDAPAuthenticationProvider.cs" />
+    <Compile Include="LineControlProvider.cs" />
+    <Compile Include="LineControlService.cs" />
+    <Compile Include="LineControlServiceSection.cs" />
+    <Compile Include="PrivacyProvider.cs" />
+    <Compile Include="PrivacyService.cs" />
+    <Compile Include="PrivacyServiceSection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReasonCode.cs" />
+    <Compile Include="SharedLineException.cs" />
+    <Compile Include="SnapshotProvider.cs" />
+    <Compile Include="SnapshotService.cs" />
+    <Compile Include="SnapshotServiceSection.cs" />
+    <Compile Include="SpeedDial.cs" />
+    <Compile Include="SpeedDialProvider.cs" />
+    <Compile Include="SpeedDialService.cs" />
+    <Compile Include="SpeedDialServiceSection.cs" />
+    <Compile Include="TalkACDProvider.cs" />
+    <Compile Include="TalkAuthenticationProvider.cs" />
+    <Compile Include="TalkCallLogsProvider.cs" />
+    <Compile Include="TalkCodificationProvider.cs" />
+    <Compile Include="TalkCTIProvider.cs" />
+    <Compile Include="TalkDirectoryNumberAnalysorProvider.cs" />
+    <Compile Include="TalkLineControlProvider.cs" />
+    <Compile Include="TalkPrivacyProvider.cs" />
+    <Compile Include="TalkSnapshotProvider.cs" />
+    <Compile Include="TalkSpeedDialProvider.cs" />
+    <Compile Include="TAPICTIProvider.cs" />
+    <Compile Include="TAPISnapshotProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CodifModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CodifModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="Wybecom.TalkPortal.Providers.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Cisco\Wybecom.TalkPortal.Cisco.csproj">
+      <Project>{BCB13570-440F-431C-9042-13CDDF06F6F7}</Project>
+      <Name>Wybecom.TalkPortal.Cisco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Connectors.Asterisk.Client\Wybecom.TalkPortal.Connectors.Asterisk.Client.csproj">
+      <Project>{BF46403E-0A8F-4C72-8514-1E8073662671}</Project>
+      <Name>Wybecom.TalkPortal.Connectors.Asterisk.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.Connectors.TAPI.Client\Wybecom.TalkPortal.Connectors.TAPI.Client.csproj">
+      <Project>{1ACFD33C-921A-4BF0-B6A6-5FBD0C1A703D}</Project>
+      <Name>Wybecom.TalkPortal.Connectors.TAPI.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.CTI.Messages\Wybecom.TalkPortal.CTI.Messages.csproj">
+      <Project>{321FBFEF-7A17-4856-82BF-F9630466B332}</Project>
+      <Name>Wybecom.TalkPortal.CTI.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.CTI.Proxy\Wybecom.TalkPortal.CTI.Proxy.csproj">
+      <Project>{DB4909DA-6127-44DC-8BA1-676D133A93C0}</Project>
+      <Name>Wybecom.TalkPortal.CTI.Proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wybecom.TalkPortal.DMD\Wybecom.TalkPortal.DMD.csproj">
+      <Project>{B47CE9DB-B352-4E7C-931D-54896CBBFFF7}</Project>
+      <Name>Wybecom.TalkPortal.DMD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

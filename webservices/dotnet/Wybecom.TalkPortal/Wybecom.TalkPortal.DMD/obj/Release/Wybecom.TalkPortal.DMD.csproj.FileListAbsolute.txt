@@ -1,0 +1,16 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.DMD.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.DMD.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.XmlSerializers.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\Wybecom.TalkPortal.DMD.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\Wybecom.TalkPortal.DMD.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.DMD.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.DMD.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\bin\Release\Wybecom.TalkPortal.Cisco.XmlSerializers.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\Wybecom.TalkPortal.DMD.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD\obj\Release\Wybecom.TalkPortal.DMD.pdb

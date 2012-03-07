@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://wybecom.org/talkportal/cti/calllogsserver" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://wybecom.org/talkportal/cti/calllogsserver" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://wybecom.org/talkportal/cti/calllogsserver">
+      <s:element name="GetMissedCalls">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMissedCallsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMissedCallsResult" type="tns:ArrayOfCall" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCall">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Call" nillable="true" type="tns:Call" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Call">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="caller" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="callee" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="callId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="type" type="tns:CallType" />
+          <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="CallType">
+        <s:restriction base="s:string">
+          <s:enumeration value="missed" />
+          <s:enumeration value="placed" />
+          <s:enumeration value="received" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetPlacedCalls">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlacedCallsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlacedCallsResult" type="tns:ArrayOfCall" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedCalls">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sort" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReceivedCallsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReceivedCallsResult" type="tns:ArrayOfCall" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfCall" nillable="true" type="tns:ArrayOfCall" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMissedCallsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMissedCalls" />
+  </wsdl:message>
+  <wsdl:message name="GetMissedCallsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMissedCallsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlacedCalls" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlacedCallsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReceivedCalls" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReceivedCallsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMissedCallsHttpGetIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMissedCallsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsHttpGetIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsHttpGetIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:message name="GetMissedCallsHttpPostIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMissedCallsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsHttpPostIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPlacedCallsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsHttpPostIn">
+    <wsdl:part name="dn" type="s:string" />
+    <wsdl:part name="sort" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReceivedCallsHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfCall" />
+  </wsdl:message>
+  <wsdl:portType name="CallLogsServerSoap">
+    <wsdl:operation name="GetMissedCalls">
+      <wsdl:input message="tns:GetMissedCallsSoapIn" />
+      <wsdl:output message="tns:GetMissedCallsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <wsdl:input message="tns:GetPlacedCallsSoapIn" />
+      <wsdl:output message="tns:GetPlacedCallsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <wsdl:input message="tns:GetReceivedCallsSoapIn" />
+      <wsdl:output message="tns:GetReceivedCallsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CallLogsServerHttpGet">
+    <wsdl:operation name="GetMissedCalls">
+      <wsdl:input message="tns:GetMissedCallsHttpGetIn" />
+      <wsdl:output message="tns:GetMissedCallsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <wsdl:input message="tns:GetPlacedCallsHttpGetIn" />
+      <wsdl:output message="tns:GetPlacedCallsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <wsdl:input message="tns:GetReceivedCallsHttpGetIn" />
+      <wsdl:output message="tns:GetReceivedCallsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CallLogsServerHttpPost">
+    <wsdl:operation name="GetMissedCalls">
+      <wsdl:input message="tns:GetMissedCallsHttpPostIn" />
+      <wsdl:output message="tns:GetMissedCallsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <wsdl:input message="tns:GetPlacedCallsHttpPostIn" />
+      <wsdl:output message="tns:GetPlacedCallsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <wsdl:input message="tns:GetReceivedCallsHttpPostIn" />
+      <wsdl:output message="tns:GetReceivedCallsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CallLogsServerSoap" type="tns:CallLogsServerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMissedCalls">
+      <soap:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetMissedCalls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <soap:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetPlacedCalls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <soap:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetReceivedCalls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CallLogsServerSoap12" type="tns:CallLogsServerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMissedCalls">
+      <soap12:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetMissedCalls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <soap12:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetPlacedCalls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <soap12:operation soapAction="http://wybecom.org/talkportal/cti/calllogsserver/GetReceivedCalls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CallLogsServerHttpGet" type="tns:CallLogsServerHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetMissedCalls">
+      <http:operation location="/GetMissedCalls" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <http:operation location="/GetPlacedCalls" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <http:operation location="/GetReceivedCalls" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CallLogsServerHttpPost" type="tns:CallLogsServerHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetMissedCalls">
+      <http:operation location="/GetMissedCalls" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlacedCalls">
+      <http:operation location="/GetPlacedCalls" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReceivedCalls">
+      <http:operation location="/GetReceivedCalls" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CallLogsServer">
+    <wsdl:port name="CallLogsServerSoap" binding="tns:CallLogsServerSoap">
+      <soap:address location="http://localhost/CTIWebServices/CallLogsServer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CallLogsServerSoap12" binding="tns:CallLogsServerSoap12">
+      <soap12:address location="http://localhost/CTIWebServices/CallLogsServer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CallLogsServerHttpGet" binding="tns:CallLogsServerHttpGet">
+      <http:address location="http://localhost/CTIWebServices/CallLogsServer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CallLogsServerHttpPost" binding="tns:CallLogsServerHttpPost">
+      <http:address location="http://localhost/CTIWebServices/CallLogsServer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

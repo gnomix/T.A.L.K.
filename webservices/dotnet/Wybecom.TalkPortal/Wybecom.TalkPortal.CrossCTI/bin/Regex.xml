@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<regexps>
+	<regex pattern="\+\(33\)|\+\( 33 \)|\+ \(33\)|\+ \( 33 \)|\+33|\+ 33">00</regex>
+	<regex pattern="[- \+\.()]"></regex>
+	<regex pattern="[a-zA-Z]"></regex>
+</regexps>

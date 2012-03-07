@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log4net>
+		<!-- Define some output appenders -->
+		<appender name="RollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
+			<param name="File" value="Cisco.log" />
+			<param name="AppendToFile" value="true" />
+
+			<param name="MaxSizeRollBackups" value="10" />
+			<param name="MaximumFileSize" value="1MB" />
+			<param name="RollingStyle" value="Size" />
+			<param name="StaticLogFileName" value="true" />
+
+			<layout type="log4net.Layout.PatternLayout">
+				<param name="ConversionPattern" value="%d [%t] %-5p %c [%logger] - %m%n" />
+			</layout>
+		</appender>
+
+		<root>
+			<priority value="DEBUG" />
+			<appender-ref ref="RollingLogFileAppender" />
+		</root>
+
+	</log4net>

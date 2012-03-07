@@ -1,0 +1,18 @@
+<publishData>
+  <publishTarget publishUrl="C:\Talk\CrossCTI\">
+    <file relUrl="bin/Wybecom.TalkPortal.CrossCTI.pdb" publishTime="07/28/2009 12:56:55" />
+    <file relUrl="LineControlServer.asmx" publishTime="07/01/2009 17:23:21" />
+    <file relUrl="bin/Wybecom.TalkPortal.Providers.pdb" publishTime="07/28/2009 12:56:55" />
+    <file relUrl="CallLogsServer.asmx" publishTime="07/01/2009 17:19:39" />
+    <file relUrl="Regex.xml" publishTime="07/27/2009 11:12:35" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Messages.dll" publishTime="07/28/2009 12:56:54" />
+    <file relUrl="Web.config" publishTime="07/28/2009 11:09:11" />
+    <file relUrl="bin/Wybecom.TalkPortal.Providers.dll" publishTime="07/28/2009 12:56:55" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Proxy.dll" publishTime="07/28/2009 12:56:54" />
+    <file relUrl="bin/Wybecom.TalkPortal.CrossCTI.dll" publishTime="07/28/2009 12:56:56" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Proxy.pdb" publishTime="07/28/2009 12:56:54" />
+    <file relUrl="Global.asax" publishTime="07/06/2009 15:37:00" />
+    <file relUrl="CTIServer.asmx" publishTime="07/02/2009 14:21:46" />
+    <file relUrl="bin/Wybecom.TalkPortal.CTI.Messages.pdb" publishTime="07/28/2009 12:56:54" />
+  </publishTarget>
+</publishData>

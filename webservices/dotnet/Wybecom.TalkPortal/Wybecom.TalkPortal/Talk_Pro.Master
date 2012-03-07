@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Talk_Pro.Master.cs" Inherits="Wybecom.TalkPortal.Talk_Pro"  %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body">
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smTalkPortal" runat="server">
+    <%-- <Scripts>
+        <asp:ScriptReference Name="MicrosoftAjaxDataService.js"  />
+    </Scripts>
+	--%>
+    </asp:ScriptManager>
+    
+    
+    <div class="tail-site">
+    	<div class="main">
+        	<!--header-->
+            <div class="header-wrapper clear">
+            	<div class="border-top">
+                	<div class="border-bottom">
+                    	<div class="border-left">
+                        	<div class="border-right">
+                            	<div class="corner-top-left">
+                                	<div class="corner-top-right">
+                                    	<div class="corner-bottom-left">
+                                        	<div class="corner-bottom-right clear">
+                                            	<div class="header-wrapper-indent">
+                                                	<div class="clear">
+                                                    	<div class="row-logo clear">
+                                                        	<div class="fright">		
+                                                        	    <div class="moduletable">
+                                                        	        
+                                                                </div>
+	                                                        </div>
+                                                            <div class="fleft"><h1><a href="http://www.wybecom.Com"></a></h1></div>
+                                                        </div>
+                                                        <div class="top-meun clear">
+                                                        <div class="topmenu-wrapper">
+        	<div class="border-top">
+            	<div class="border-bottom">
+                	<div class="border-left">
+                    	<div class="border-right">
+                        	<div class="corner-top-left">
+                            	<div class="corner-top-right">
+                                	<div class="corner-bottom-left">
+                                    	<div class="corner-bottom-right clear">
+                                        	<div class="module">
+                                        	    <ul class="menu-nav">
+                                        	        <li>
+                                                        <a href="CTIControl.aspx"><span>CTI Control</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="DMDMgt.aspx"><span>Dynamic Directory Management</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="CodifMgt.aspx"><span>Codification</span></a>
+                                                    </li>
+                                        	    </ul>											                                            
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+	</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+                        <!--content-->
+            <div id="content">
+				<div style="width:100%;">
+                <div class="header icon-48-directory" >
+						<asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+						</asp:ContentPlaceHolder>
+				</div>
+				
+                <div class="toolbar" id="toolbar"  >
+						<asp:ContentPlaceHolder ID="ContentPlaceHolderToolBar" runat="server">
+						</asp:ContentPlaceHolder>
+				</div>
+				</div>
+				<br/>
+				<div style="float:left; width:100%;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderDisplay" runat="server">
+                </asp:ContentPlaceHolder>
+				</div>
+            	<div class="clear">
+                	 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+    	<div class="footer">
+        	Copyright &#169; 2009 Wybecom. All Rights Reserved.
+        </div>
+    </div>
+    </form>
+</body>
+</html>

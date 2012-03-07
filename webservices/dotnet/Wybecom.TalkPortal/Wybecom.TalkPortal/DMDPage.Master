@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DMDPage.Master.cs" Inherits="Wybecom.TalkPortal.DMDPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="css/black.css" type="text/css" />
+    <link rel="Stylesheet" href="css/black_bg.css" type="text/css" />
+    <link rel="Stylesheet" href="css/template.css" type="text/css" />
+    <link rel="Stylesheet" type="text/css" href="css/dmd/rounded.css" />
+    <link rel="Stylesheet" type="text/css" href="css/dmd/system.css" />
+    <link rel="Stylesheet" type="text/css" href="css/dmd/template.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smTalkPortal" runat="server">
+    </asp:ScriptManager>
+    <div class="center" align="center">
+	<div id="wrapper">
+		<div id="wrapper_r">
+			<div id="header">
+				<div id="header_l">
+					<div id="header_r">
+						<div id="logo"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tabarea">
+				<div id="tabarea_l">
+					<div id="tabarea_r">
+						<div id="tabmenu">
+						<table cellpadding="0" cellspacing="0" class="pill">
+							<tr>
+								<td class="pill_l">&nbsp;</td>
+								<td class="pill_m">
+								<div id="pillmenu">
+									<ul id="mainlevel-nav">
+									    <li>
+                                            <asp:HyperLink ID="hlHome" runat="server">Home</asp:HyperLink> 
+                                        </li>
+                                        <li>
+                                            <asp:HyperLink ID="hlDMD" runat="server">DMD</asp:HyperLink> 
+                                        </li>
+                                    </ul>
+								</div>
+								</td>
+								<td class="pill_r">&nbsp;</td>
+							</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="search">
+				
+	
+
+			</div>
+
+			<div id="pathway">
+				
+
+			</div>
+
+			<div class="clr"></div>
+
+			<div id="whitebox">
+				<div id="whitebox_t">
+					<div id="whitebox_tl">
+						<div id="whitebox_tr"></div>
+					</div>
+				</div>
+
+				<div id="whitebox_m">
+					<div id="area">
+									
+
+						
+
+												<div id="maincolumn_full">
+													<div id="displaydiv">
+													    <div>
+                                                            <div>
+                                                                <div></div>
+                                                            </div>
+                                                            <div>
+                                                                <div id="toolbar-box">
+   			                                                        <div class="t">
+				                                                        <div class="t">
+					                                                        <div class="t"></div>
+				                                                        </div>
+			                                                        </div>
+			                                                        <div class="m">
+				                                                        <div class="toolbar" id="toolbar">
+                                                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderToolBar" runat="server">
+                                                                            </asp:ContentPlaceHolder>
+                                                                        </div>
+				                                                        <div class="header icon-48-directory">
+                                                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+                                                                            </asp:ContentPlaceHolder>
+                                                                        </div>
+
+				                                                        <div class="clr"></div>
+			                                                        </div>
+			                                                        <div class="b">
+				                                                        <div class="b">
+					                                                        <div class="b"></div>
+				                                                        </div>
+			                                                        </div>
+  		                                                        </div>
+   		                                                        <div class="clr"></div>
+                                                           		
+   		                                                        <div id="element-box">
+			                                                        <div class="t">
+		 		                                                        <div class="t">
+					                                                        <div class="t"></div>
+		 		                                                        </div>
+			                                                        </div>
+			                                                        <div class="m">
+			                                                            <asp:ContentPlaceHolder ID="ContentPlaceHolderDisplay" runat="server">
+                                                                        </asp:ContentPlaceHolder>
+				                                                        <div class="clr"></div>
+			                                                        </div>
+			                                                        <div class="b">
+				                                                        <div class="b">
+					                                                        <div class="b"></div>
+				                                                        </div>
+			                                                        </div>
+   		                                                        </div>
+                                                            </div>
+                                                        </div>
+													</div>
+						</div>
+						<div class="clr"></div>
+					</div>
+					<div class="clr"></div>
+				</div>
+
+				<div id="whitebox_b">
+					<div id="whitebox_bl">
+						<div id="whitebox_br"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footerspacer"></div>
+		</div>
+
+		<div id="footer">
+			<div id="footer_l">
+				<div id="footer_r">
+				    
+					<p id="syndicate">
+						
+					</p>
+					<p id="power_by">
+	 				 	Copyright &#169; 2009 Wybecom. All Rights Reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    </form>
+</body>
+</html>

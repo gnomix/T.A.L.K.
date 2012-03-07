@@ -1,0 +1,10 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\bin\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\bin\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\obj\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\bin\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.Connectors.Asterisk.Client\bin\Release\Wybecom.TalkPortal.Connectors.Asterisk.Client.pdb

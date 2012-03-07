@@ -1,0 +1,16 @@
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.DMDClient.resources
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.csproj.GenerateResource.Cache
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Controls.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Controls.pdb
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.dll
+C:\Users\WYBECOM\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Controls.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Controls.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.DMDClient.resources
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.csproj.GenerateResource.Cache
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\obj\Release\Wybecom.TalkPortal.DMD.Controls.pdb
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Proxy.dll
+C:\Users\Yohann\Documents\Wybecom\talk\dotnet\Wybecom.TalkPortal\Wybecom.TalkPortal.DMD.Controls\bin\Release\Wybecom.TalkPortal.DMD.Proxy.pdb

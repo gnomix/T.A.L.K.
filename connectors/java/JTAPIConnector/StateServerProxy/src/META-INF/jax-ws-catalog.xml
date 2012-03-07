@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Documents%20and%20Settings/barre_y/Mes%20documents/Wybecom/talk/java/Talk.StateServer.Proxy/src/org/wybecom/talkportal/cti/stateserver/StateServer.wsdl" uri="wsdl/StateServer.wsdl"/>
+</catalog>
