@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.wybecom.talk.jtapi</groupId>
+  <artifactId>stateserver</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>State Server Proxy</name>
+  <description></description>
+  <url>http://wybecom.com/talk</url>
+  <inceptionYear>2007</inceptionYear>
+
+  <scm>
+    <connection>scm:git:git://github.com:wybecom/T.A.L.K..git</connection>
+    <developerConnection>scm:git:ssh://github.com:wybecom/T.A.L.K..git</developerConnection>
+    <url>https://github.com/wybecom/T.A.L.K.</url>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jvnet.jax-ws-commons</groupId>
+        <artifactId>jaxws-maven-plugin</artifactId>
+        <version>2.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>wsimport</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packageName>org.wybecom.talkportal.cti.stateserver</packageName>
+          <wsdlDirectory>src/org/wybecom/talkportal/cti/stateserver</wsdlDirectory>
+          <!--wsdlDirectory>src/META-INF/wsdl</wsdlDirectory--><!-- TODO see which one is the right one -->
+          <!-- notice default location for the plugin is ${basedir}/src/wsdl -->
+        </configuration>
+      </plugin>
+         
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+ 
