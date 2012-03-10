@@ -40,6 +40,14 @@
       <artifactId>jaxb-api</artifactId>
       <version>2.2.6</version>
     </dependency>
+    <!-- see http://developer.cisco.com/web/cdc/library "Cisco JTAPI (JTAPI)" section v7.0 page 99
+For Cisco Unified Communications Manager Administration Release 4.x (Windows), the URL is
+http://<servername or ip address>/CCMPluginsServer/jtapi.jar.
+For Cisco Unified Communications Manager Administration Release 6.x and 7.0(1) (Linux), the URLis
+http://<server name or ip address>/plugins/jtapi.jar.
+For Cisco Unified Communications Manager Administration Release 7.0(1) (Windows), the URL is
+http://<server name or ip address>/plugins/jtapi.jar.    
+    -->
     <!--dependency>
       <groupId>com.cisco.jtapi</groupId>
       <artifactId>jtapi-impl</artifactId>
