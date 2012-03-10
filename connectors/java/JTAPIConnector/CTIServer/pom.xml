@@ -14,8 +14,9 @@
   <inceptionYear>2007</inceptionYear>
 
   <scm>
-    <connection>scm:hg:http://hg.wybecom.com/talk/java/CTIServer</connection>
-    <developerConnection>scm:svn:https://hg.wybecom.com/talk/java/CTIServer</developerConnection>
+    <connection>scm:git:git://github.com:wybecom/T.A.L.K..git</connection>
+    <developerConnection>scm:git:ssh://github.com:wybecom/T.A.L.K..git</developerConnection>
+    <url>https://github.com/wybecom/T.A.L.K.</url>
   </scm>
 
   <dependencies>
