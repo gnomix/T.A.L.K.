@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.wybecom.talk.jtapi</groupId>
+  <artifactId>cti-server</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>CTI Server</name>
+  <description></description>
+  <url>http://wybecom.com/talk</url>
+  <inceptionYear>2007</inceptionYear>
+
+  <scm>
+    <connection>scm:hg:http://hg.wybecom.com/talk/java/CTIServer</connection>
+    <developerConnection>scm:svn:https://hg.wybecom.com/talk/java/CTIServer</developerConnection>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.wybecom.talk.jtapi</groupId>
+      <artifactId>stateserver</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.media</groupId>
+      <artifactId>jmf</artifactId>
+      <version>2.1.1e</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>persistence-api</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.2.6</version>
+    </dependency>
+    <!--dependency>
+      <groupId>com.cisco.jtapi</groupId>
+      <artifactId>jtapi-impl</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/jtapi.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>tanukisoft</groupId>
+      <artifactId>wrapper</artifactId-->
+      <!-->version>3.2.3</version--><!-- dernier dispo sur le repo central -->
+      <!--version>3.3.3</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/wrapper.jar</systemPath>
+    </dependency-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <version>1.3.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>xjc</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <schemaDirectory>xml-resources/jaxb/teamconfig</schemaDirectory>
+          <packageName>org.wybecom.talk.team.config</packageName>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+ 
