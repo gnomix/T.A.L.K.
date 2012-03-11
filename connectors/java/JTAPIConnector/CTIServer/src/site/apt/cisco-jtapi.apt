@@ -1,0 +1,34 @@
+ -----
+ Cisco JTAPI artifact
+ -----
+ Hervé Boutemy
+ -----
+ 2012-03-11
+ -----
+
+Cisco JTAPI artifact
+
+  Cisco provides a jtapi driver in its products that can't be redistributed (AFAIK).
+
+  See {{{http://developer.cisco.com/web/cdc/library}Cisco documentation}} to get the artifact from your local installation.
+  Actual summary is:
+
+  * for Cisco Unified Communications Manager Administration Release 4.x (Windows), the URL is
+    http://<servername or ip address>/CCMPluginsServer/jtapi.jar
+
+  * for Cisco Unified Communications Manager Administration Release 6.x and 7.0(1) (Linux), the URL is
+    http://<server name or ip address>/plugins/jtapi.jar
+
+  * for Cisco Unified Communications Manager Administration Release 7.0(1) (Windows), the URL is
+    http://<server name or ip address>/plugins/jtapi.jar
+
+  []
+
+  Once downloaded, you need to install the artifact to you local repository (update the version to match your actual
+  environment):
+
++------
+$ java -cp jtapi.jar CiscoJtapiVersion
+Cisco JTAPI version 6.1(2.1000)-12 Release
+$ mvn install:install-file -Dfile=jtapi.jar -DgroupId=com.cisco -DartifactId=cisco-jtapi -Dpackaging=jar -Dversion=6.1
++------
