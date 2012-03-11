@@ -71,8 +71,6 @@ http://<server name or ip address>/plugins/jtapi.jar.
   </dependencies>
 
   <build>
-    <sourceDirectory>src</sourceDirectory>
-
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
