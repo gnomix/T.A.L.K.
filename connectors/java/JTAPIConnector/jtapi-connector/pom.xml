@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>jtapi-connector</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>JTAPI Connector</name>
   <description></description>
@@ -33,5 +33,14 @@
   	  <artifactId>cti-server</artifactId>
   	</dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 </project>
  
