@@ -19,10 +19,6 @@
     <url>https://github.com/wybecom/T.A.L.K.</url>
   </scm>
 
-  <build>
-    <sourceDirectory>src/java</sourceDirectory>
-  </build>
-
   <dependencies>
   	<dependency>
       <groupId>javax.servlet</groupId>
