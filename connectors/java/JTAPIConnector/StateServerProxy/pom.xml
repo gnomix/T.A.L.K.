@@ -34,9 +34,6 @@
         </executions>
         <configuration>
           <packageName>org.wybecom.talkportal.cti.stateserver</packageName>
-          <wsdlDirectory>src/org/wybecom/talkportal/cti/stateserver</wsdlDirectory>
-          <!--wsdlDirectory>src/META-INF/wsdl</wsdlDirectory--><!-- TODO see which one is the right one -->
-          <!-- notice default location for the plugin is ${basedir}/src/wsdl -->
         </configuration>
       </plugin>
          
