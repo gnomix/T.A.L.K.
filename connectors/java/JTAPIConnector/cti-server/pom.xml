@@ -3,48 +3,38 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.wybecom.talk.jtapi</groupId>
+  <parent>
+    <groupId>org.wybecom.talk.jtapi</groupId>
+    <artifactId>jtapi-connector-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
   <artifactId>cti-server</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>CTI Server</name>
   <description></description>
-  <url>http://wybecom.com/talk</url>
-  <inceptionYear>2007</inceptionYear>
-
-  <scm>
-    <connection>scm:git:git://github.com:wybecom/T.A.L.K..git</connection>
-    <developerConnection>scm:git:ssh://github.com:wybecom/T.A.L.K..git</developerConnection>
-    <url>https://github.com/wybecom/T.A.L.K.</url>
-  </scm>
 
   <dependencies>
     <dependency>
       <groupId>org.wybecom.talk.jtapi</groupId>
       <artifactId>stateserver</artifactId>
-      <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>javax.media</groupId>
       <artifactId>jmf</artifactId>
-      <version>2.1.1e</version>
     </dependency>
     <dependency>
       <groupId>javax.persistence</groupId>
       <artifactId>persistence-api</artifactId>
-      <version>1.0.2</version>
     </dependency>
     <dependency>
       <groupId>javax.xml.bind</groupId>
       <artifactId>jaxb-api</artifactId>
-      <version>2.2.6</version>
     </dependency>
-    <!-- see documentation on getting this artifact in your local repository-->
     <dependency>
       <groupId>com.cisco</groupId>
       <artifactId>cisco-jtapi</artifactId>
-      <version>6.1</version>
     </dependency>
     <!--dependency>
       <groupId>tanukisoft</groupId>
@@ -57,7 +47,6 @@
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
-      <version>1.2.16</version>
     </dependency>
   </dependencies>
 
@@ -75,7 +64,6 @@
           </execution>
         </executions>
         <configuration>
-          <schemaDirectory>xml-resources/jaxb/teamconfig</schemaDirectory>
           <packageName>org.wybecom.talk.team.config</packageName>
         </configuration>
       </plugin>
